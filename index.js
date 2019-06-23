@@ -444,7 +444,6 @@ module.exports = {
 		'react/void-dom-elements-no-children': 'error',
 		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'error',
-		'require-atomic-updates': 'error',
 		'require-await': 'error',
 		'require-unicode-regexp': 'error',
 		'require-yield': 'error',
@@ -638,6 +637,8 @@ module.exports = {
 		'react/require-default-props': 'off',
 		'react/static-property-placement': 'off',
 		semi: 'off',
+		// Doesn't play nice with koa code
+		'require-atomic-updates': 'off',
 		// Good canditate to be enabled as a replacement for default "complexity" rule
 		'sonarjs/cognitive-complexity': 'off',
 		'sonarjs/max-switch-cases': 'off',
