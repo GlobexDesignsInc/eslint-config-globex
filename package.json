@@ -7,15 +7,16 @@
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
 	},
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"bin": {
 		"eslint-globex": "./bin/eslint-globex.js"
 	},
 	"scripts": {
-		"eslint": "node ./bin/eslint-globex -c index.js bin index.js --color",
+		"eslint": "node ./bin/eslint-globex -c index.js bin index.js",
 		"lint": "yarn eslint && yarn packagelint",
-		"packagelint": "prettier-package-json --use-tabs --write ./package.json"
+		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
+		"test": "yarn lint"
 	},
 	"dependencies": {
 		"babel-eslint": "10.0.2",
