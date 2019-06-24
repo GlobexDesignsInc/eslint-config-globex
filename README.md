@@ -2,7 +2,7 @@
 
 <h1>eslint-config-globex</h1>
 
-<img alt="eslint-config-cumul8" src="logo.png" width="128" />
+<img alt="eslint-config-globex" src="logo.png" width="128" />
 
 <p><em>The Javascript code standards used at Globex Designs, Inc.</em></p>
 
