@@ -92,6 +92,7 @@ module.exports = {
 		'flowtype/require-types-at-top': ['error', 'always'],
 		'flowtype/require-valid-file-annotation': ['error', 'always', {
 			annotationStyle: 'line',
+			strict: true
 		}],
 		'flowtype/semi': ['error', 'always'],
 		'flowtype/sort-keys': ['error', 'asc', {
