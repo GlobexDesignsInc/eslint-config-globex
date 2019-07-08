@@ -7,6 +7,7 @@ module.exports = {
 		es6: true,
 		node: true,
 		jasmine: true,
+		jest: true
 	},
 	globals: {
 		__DEV__: 'writeable',
@@ -658,8 +659,12 @@ module.exports = {
 		},
 	},
 	overrides: [{
-		files: ['*.test.js'],
+		files: [
+			'**/__mocks__/**',
+			'*.test.js'
+		],
 		rules: {
+			'flowtype/no-types-missing-file-annotation': 'off',
 			'flowtype/require-parameter-type': 'off',
 			'flowtype/require-return-type': 'off',
 			'flowtype/require-valid-file-annotation': 'off',
