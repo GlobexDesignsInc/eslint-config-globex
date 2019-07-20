@@ -67,6 +67,7 @@ module.exports = {
 		'filenames/match-exported': 'error',
 		'flowtype/array-style-complex-type': 'error',
 		'flowtype/array-style-simple-type': 'error',
+		'flowtype/arrow-parens': ['error', 'always'],
 		'flowtype/boolean-style': ['error', 'boolean'],
 		'flowtype/define-flow-type': 'error',
 		'flowtype/delimiter-dangle': ['error', 'always-multiline'],
