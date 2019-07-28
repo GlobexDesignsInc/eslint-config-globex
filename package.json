@@ -16,6 +16,7 @@
 		"eslint": "node ./bin/eslint-globex -c index.js bin index.js",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
+		"release": "yarn test && standard-version && git push --follow-tags origin master && npm publish",
 		"test": "yarn lint"
 	},
 	"dependencies": {
@@ -35,6 +36,7 @@
 		"eslint-plugin-sonarjs": "0.4.0"
 	},
 	"devDependencies": {
-		"prettier-package-json": "2.1.0"
+		"prettier-package-json": "2.1.0",
+		"standard-version": "6.0.1"
 	}
 }

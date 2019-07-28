@@ -7,7 +7,7 @@ module.exports = {
 		es6: true,
 		node: true,
 		jasmine: true,
-		jest: true
+		jest: true,
 	},
 	globals: {
 		__DEV__: 'writeable',
@@ -94,7 +94,7 @@ module.exports = {
 		'flowtype/require-types-at-top': ['error', 'always'],
 		'flowtype/require-valid-file-annotation': ['error', 'always', {
 			annotationStyle: 'line',
-			strict: true
+			strict: true,
 		}],
 		'flowtype/semi': ['error', 'always'],
 		'flowtype/sort-keys': ['error', 'asc', {
@@ -662,7 +662,7 @@ module.exports = {
 	overrides: [{
 		files: [
 			'**/__mocks__/**',
-			'*.test.js'
+			'*.test.js',
 		],
 		rules: {
 			'flowtype/no-types-missing-file-annotation': 'off',
