@@ -86,6 +86,7 @@ module.exports = {
 		}],
 		'flowtype/object-type-delimiter': ['error', 'comma'],
 		'flowtype/require-exact-type': 'error',
+		'flowtype/require-indexer-name': ['error', 'always'],
 		'flowtype/require-parameter-type': 'error',
 		'flowtype/require-readonly-react-props': 'error',
 		'flowtype/require-return-type': ['error', 'always', {
