@@ -114,6 +114,7 @@ module.exports = {
 		'func-call-spacing': ['error', 'never'],
 		'func-name-matching': 'error',
 		'func-style': ['error', 'expression'],
+		'function-call-argument-newline': ['error', 'consistent'],
 		'generator-star-spacing': ['error', {before: false, after: true}],
 		'getter-return': 'error',
 		'global-require': 'error',
