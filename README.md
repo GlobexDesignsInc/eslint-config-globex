@@ -14,6 +14,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/GlobexDesignsInc/eslint-config-globex.svg)](https://greenkeeper.io/)
+
 ```sh
 # With npm
 npm install -D eslint-config-globex
