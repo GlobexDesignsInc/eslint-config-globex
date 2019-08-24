@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.4.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.3.0...v2.4.1) (2019-08-24)
+
 ## [2.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.1.3...v2.3.0) (2019-08-18)
 
 
