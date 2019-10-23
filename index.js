@@ -155,7 +155,7 @@ module.exports = {
 		'jasmine/no-suite-callback-args': 'error',
 		'jasmine/no-unsafe-spy': 'error',
 		'jasmine/prefer-jasmine-matcher': 'error',
-		'json/*': ['error', {'allowComments': true}],
+		'json/*': ['error', {allowComments: true}],
 		'jsx-a11y/accessible-emoji': 'error',
 		'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
 		'jsx-a11y/alt-text': 'error',
