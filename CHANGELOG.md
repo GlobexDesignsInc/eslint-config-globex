@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.6.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.5.1...v2.6.1) (2019-11-10)
+
+
+### Bug Fixes
+
+* **package:** update eslint-plugin-json to version 2.0.1 ([cfca1ab](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/cfca1ab)), closes [#12](https://github.com/GlobexDesignsInc/eslint-config-globex/issues/12)
+* **package:** update eslint-plugin-react to version 7.16.0 ([1490d58](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1490d58))
+* **package:** update eslint-plugin-react-hooks to version 2.2.0 ([1dbce37](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1dbce37))
+
 ### [2.5.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.5.0...v2.5.1) (2019-10-02)
 
 
