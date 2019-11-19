@@ -37,6 +37,6 @@
 	},
 	"devDependencies": {
 		"prettier-package-json": "2.1.0",
-		"standard-version": "7.0.0"
+		"standard-version": "7.0.1"
 	}
 }
