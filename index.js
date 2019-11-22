@@ -149,6 +149,7 @@ module.exports = {
 		'jasmine/no-expect-in-setup-teardown': 'error',
 		'jasmine/no-focused-tests': 'error',
 		'jasmine/no-global-setup': 'error',
+		'jasmine/no-pending-tests': 'error',
 		'jasmine/no-promise-without-done-fail': 'error',
 		'jasmine/no-spec-dupes': ['error', 'branch'],
 		'jasmine/no-suite-dupes': 'error',
