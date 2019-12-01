@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.6.2...v2.7.0) (2019-12-01)
+
+
+### Features
+
+* Add new rules from eslint 6.7.0 ([13eea3d](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/13eea3d1c529df9ff692ef541ca7e065a8a804db))
+* Added new "jasmine/no-pending-tests" rule ([167d4dc](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/167d4dc79c364ebd801d3a2ed0ba03982ffc2911))
+
 ### [2.6.2](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.6.1...v2.6.2) (2019-11-10)
 
 ### [2.6.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.5.1...v2.6.1) (2019-11-10)

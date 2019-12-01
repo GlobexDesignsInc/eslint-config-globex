@@ -7,7 +7,7 @@
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
 	},
-	"version": "2.6.2",
+	"version": "2.7.0",
 	"main": "index.js",
 	"bin": {
 		"eslint-globex": "./bin/eslint-globex.js"
