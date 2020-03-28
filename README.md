@@ -34,7 +34,16 @@ Add the config to your `.eslintrc` file:
 
 ```json
 {
-	"extends": "eslint-config-globex"
+	"extends": [
+		// Installs the base configuration for all JavaScript projects
+		"eslint-config-globex",
+
+		// (Optional) Additional rules for Jasmine
+		"eslint-config-globex/jasmine",
+
+		// (Optional) Additional rules for Jest
+		"eslint-config-globex/jest"
+	]
 }
 ```
 

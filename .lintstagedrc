@@ -1,6 +1,6 @@
 {
 	"*.js": [
-		"eslint-globex . --fix"
+		"node ./bin/eslint-globex -c index.js . --fix"
 	],
 	"package.json": [
 		"prettier-package-json --use-tabs --write ./package.json"
