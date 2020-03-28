@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0-beta.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2020-03-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* assumes Flow users enable the "exact_by_default=true" configuration option
+
+### Features
+
+* disable jest/lowercase-name rule ([584b1cc](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/584b1cc84f40f9057904aa484ce077da9e8a9ed8))
+* flow-type switch from exact to inexact types ([1ffc25f](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1ffc25f22579a84a37c7d42136828590d3c46a10))
+
 ## [3.0.0-beta.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.8.0...v3.0.0-beta.0) (2020-03-28)
 
 
