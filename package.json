@@ -16,7 +16,7 @@
 		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
-		"release": "yarn test && standard-version",
+		"release": "standard-version",
 		"test": "yarn lint"
 	},
 	"dependencies": {
