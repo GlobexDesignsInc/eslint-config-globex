@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0-beta.2](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.0.0-beta.1...v3.0.0-beta.2) (2020-03-28)
+
+
+### Features
+
+* turn off flowtype/require-inexact-type ([1a410ee](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1a410eef9ac9407c500c43a1c4b55dfd1201b0a4))
+
 ## [3.0.0-beta.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2020-03-28)
 
 
