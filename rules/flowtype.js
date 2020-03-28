@@ -39,8 +39,8 @@ module.exports = {
 			Function: true,
 		}],
 		'flowtype/object-type-delimiter': ['error', 'comma'],
-		'flowtype/require-exact-type': 'error',
 		'flowtype/require-indexer-name': ['error', 'always'],
+		'flowtype/require-inexact-type': ['error', 'always'],
 		'flowtype/require-parameter-type': 'error',
 		'flowtype/require-readonly-react-props': 'error',
 		'flowtype/require-return-type': ['error', 'always', {
@@ -59,7 +59,6 @@ module.exports = {
 		'flowtype/space-after-type-colon': ['error', 'always'],
 		'flowtype/space-before-generic-bracket': ['error', 'never'],
 		'flowtype/space-before-type-colon': ['error', 'never'],
-		'flowtype/spread-exact-type': 'error',
 		'flowtype/type-id-match': ['error', '^([A-Z][a-z0-9]+)+Type$'],
 		'flowtype/type-import-style': ['error', 'identifier'],
 		'flowtype/union-intersection-spacing': ['error', 'always'],
@@ -73,8 +72,9 @@ module.exports = {
 		'flowtype/no-flow-fix-me-comments': 'off',
 		'flowtype/no-mutable-array': 'off',
 		'flowtype/require-compound-type-alias': 'off',
-		'flowtype/require-inexact-type': 'off',
+		'flowtype/require-exact-type': 'off',
 		'flowtype/require-variable-type': 'off',
+		'flowtype/spread-exact-type': 'off',
 	},
 	settings: {
 		react: {
