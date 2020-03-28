@@ -66,12 +66,14 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 ## Publish a new version
 
 ```sh
+# for regular releases
 yarn release
 
-# for regular releases
-npm run publish
-
 # for beta releases
-npm run publish -- --prelease beta
+yarn release --prerelease beta
 
+# confirm code looks good
+
+# then publish
+npm run publish
 ```
