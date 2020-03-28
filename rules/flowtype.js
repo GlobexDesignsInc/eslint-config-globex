@@ -40,7 +40,6 @@ module.exports = {
 		}],
 		'flowtype/object-type-delimiter': ['error', 'comma'],
 		'flowtype/require-indexer-name': ['error', 'always'],
-		'flowtype/require-inexact-type': ['error', 'always'],
 		'flowtype/require-parameter-type': 'error',
 		'flowtype/require-readonly-react-props': 'error',
 		'flowtype/require-return-type': ['error', 'always', {
@@ -72,6 +71,7 @@ module.exports = {
 		'flowtype/no-flow-fix-me-comments': 'off',
 		'flowtype/no-mutable-array': 'off',
 		'flowtype/require-compound-type-alias': 'off',
+		'flowtype/require-inexact-type': 'off',
 		'flowtype/require-exact-type': 'off',
 		'flowtype/require-variable-type': 'off',
 		'flowtype/spread-exact-type': 'off',
