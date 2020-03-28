@@ -56,3 +56,10 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 	}
 }
 ```
+
+## Publish a new version
+
+```sh
+yarn release
+npm run publish
+```
