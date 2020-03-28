@@ -75,5 +75,5 @@ yarn release --prerelease beta
 # confirm code looks good
 
 # then publish
-npm run publish
+npm publish
 ```
