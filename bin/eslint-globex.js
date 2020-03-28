@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-/* eslint-disable import/no-commonjs, flowtype/require-valid-file-annotation */
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
+/* eslint-disable import/no-commonjs */
 
 const fs = require('fs');
 const path = require('path');

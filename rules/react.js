@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-valid-file-annotation, import/no-commonjs */
+/* eslint-disable import/no-commonjs */
 
 module.exports = {
 	plugins: [
@@ -186,5 +186,10 @@ module.exports = {
 		'react/no-set-state': 'off',
 		'react/require-default-props': 'off',
 		'react/static-property-placement': 'off',
+	},
+	settings: {
+		react: {
+			version: 'detect',
+		},
 	},
 };

@@ -38,6 +38,9 @@ Add the config to your `.eslintrc` file:
 		// Installs the base configuration for all JavaScript projects
 		"eslint-config-globex",
 
+		// (Optional) Additional rules for Flow static typing
+		"eslint-config-globex/flowtype",
+
 		// (Optional) Additional rules for Jasmine
 		"eslint-config-globex/jasmine",
 

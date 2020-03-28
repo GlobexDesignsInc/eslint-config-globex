@@ -1,4 +1,4 @@
-/* eslint-disable flowtype/require-valid-file-annotation, import/no-commonjs */
+/* eslint-disable import/no-commonjs */
 
 module.exports = {
 	env: {
