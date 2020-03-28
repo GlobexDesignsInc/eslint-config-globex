@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.8.0...v3.0.0) (2020-03-28)
+
+
+### ⚠ BREAKING CHANGES
+
+* configuration now requires you specify certain extensions separately
+
+### Features
+
+* creating clear steps for releases ([06e2d12](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/06e2d120533f3c124eb9f6a0336927782aa12900))
+
 ## [2.8.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.7.1...v2.8.0) (2020-03-28)
 
 
