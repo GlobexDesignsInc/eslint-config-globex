@@ -67,5 +67,11 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 
 ```sh
 yarn release
+
+# for regular releases
 npm run publish
+
+# for beta releases
+npm run release --prelease beta
+
 ```
