@@ -12,7 +12,6 @@ module.exports = {
 
 		'jest/consistent-test-it': ['error', {fn: 'it'}],
 		'jest/expect-expect': 'error',
-		'jest/lowercase-name': 'error',
 		'jest/no-alias-methods': 'error',
 		'jest/no-duplicate-hooks': 'error',
 		'jest/no-expect-resolves': 'error',
@@ -44,6 +43,7 @@ module.exports = {
 
 		// DISABLED
 
+		'jest/lowercase-name': 'off',
 		'jest/no-hooks': 'off',
 		'jest/no-mocks-import': 'off',
 		'jest/no-test-prefixes': 'off',
