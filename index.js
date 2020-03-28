@@ -7,7 +7,6 @@ module.exports = {
 		es6: true,
 		node: true,
 		jasmine: true,
-		jest: true,
 	},
 	globals: {
 		__DEV__: 'writeable',
