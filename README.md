@@ -39,16 +39,16 @@ Add the config to your `.eslintrc` file:
 		"eslint-config-globex",
 
 		// (Optional) Additional rules for Flow static typing
-		"eslint-config-globex/flowtype",
+		"eslint-config-globex/rules/flowtype",
 
 		// (Optional) Additional rules for Jasmine
-		"eslint-config-globex/jasmine",
+		"eslint-config-globex/rules/jasmine",
 
 		// (Optional) Additional rules for Jest
-		"eslint-config-globex/jest",
+		"eslint-config-globex/rules/jest",
 
 		// (Optional) Additional rules for React
-		"eslint-config-globex/react"
+		"eslint-config-globex/rules/react"
 	]
 }
 ```
