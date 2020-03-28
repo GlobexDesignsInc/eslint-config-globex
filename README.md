@@ -72,6 +72,6 @@ yarn release
 npm run publish
 
 # for beta releases
-npm run release --prelease beta
+npm run release -- --prelease beta
 
 ```
