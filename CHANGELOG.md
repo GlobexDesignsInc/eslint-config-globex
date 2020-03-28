@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.8.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.7.1...v2.8.0) (2020-03-28)
+
+
+### Features
+
+* Add Jest plugin as a separate /rules/jest definition ([618c68b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/618c68b772732a70bf14874cbe4d05525e47cf7f))
+* break out flowtype rules ([24d1fd2](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/24d1fd26ff8b5314d78fcedbd6c0bfa9fff7e770))
+* break out Jasmine configs into a separate rule set ([9d77fa1](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/9d77fa10d40454340ac48572003780c0f2b8b043))
+* break out the react rules into a file ([c59a2cb](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c59a2cbd677a7777ddf50e0d9d1878ea4aad437a))
+
+
+### Bug Fixes
+
+* add missing jasmine rules file ([a38044f](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/a38044fa843fc03043ff19b630b91e84576fc9f6))
+
 ### [2.7.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.7.0...v2.7.1) (2020-01-01)
 
 ## [2.7.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v2.6.2...v2.7.0) (2019-12-01)
