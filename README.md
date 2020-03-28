@@ -42,7 +42,10 @@ Add the config to your `.eslintrc` file:
 		"eslint-config-globex/jasmine",
 
 		// (Optional) Additional rules for Jest
-		"eslint-config-globex/jest"
+		"eslint-config-globex/jest",
+
+		// (Optional) Additional rules for React
+		"eslint-config-globex/react"
 	]
 }
 ```
