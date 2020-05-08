@@ -13,6 +13,7 @@ module.exports = {
 		'jest/consistent-test-it': ['error', {fn: 'it'}],
 		'jest/expect-expect': 'error',
 		'jest/no-alias-methods': 'error',
+		'jest/no-deprecated-functions': 'error',
 		'jest/no-duplicate-hooks': 'error',
 		'jest/no-expect-resolves': 'error',
 		'jest/no-export': 'error',
