@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.0.0...v3.1.0) (2020-05-15)
+
+
+### Features
+
+* upgrade to ESLint 7 and the eslint-plugin-node plugin ([c0afd3e](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c0afd3e34310b8a3c8f8ca260e4bcdb3d240d311))
+
 ## [3.0.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.0.0-beta.2...v3.0.0) (2020-05-08)
 
 
