@@ -47,6 +47,7 @@ module.exports = {
 		'jest/lowercase-name': 'off',
 		'jest/no-hooks': 'off',
 		'jest/no-mocks-import': 'off',
+		'jest/no-restricted-matchers': 'off',
 		'jest/no-test-prefixes': 'off',
 		'jest/no-truthy-falsy': 'off',
 		'jest/prefer-called-with': 'off',
