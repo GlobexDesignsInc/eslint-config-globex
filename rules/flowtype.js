@@ -51,10 +51,7 @@ module.exports = {
 			strict: true,
 		}],
 		'flowtype/semi': ['error', 'always'],
-		'flowtype/sort-keys': ['error', 'asc', {
-			caseSensitive: false,
-			natural: true,
-		}],
+		'flowtype/sort-keys': ['error', 'asc'],
 		'flowtype/space-after-type-colon': ['error', 'always'],
 		'flowtype/space-before-generic-bracket': ['error', 'never'],
 		'flowtype/space-before-type-colon': ['error', 'never'],
