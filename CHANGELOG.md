@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.1.3](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.1.2...v3.1.3) (2020-05-20)
+
+
+### Bug Fixes
+
+* broken flowtype/sort-keys changes ([50fc64c](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/50fc64c7608d86029c3ea61f84d3d90b25a4d2cd))
+
 ### [3.1.2](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.1.1...v3.1.2) (2020-05-20)
 
 
