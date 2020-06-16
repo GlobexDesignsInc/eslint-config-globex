@@ -153,6 +153,7 @@ module.exports = {
 		'no-lone-blocks': 'error',
 		'no-lonely-if': 'error',
 		'no-loop-func': 'error',
+		'no-loss-of-precision': 'error',
 		'no-misleading-character-class': 'error',
 		'no-mixed-spaces-and-tabs': 'error',
 		'no-multi-assign': 'error',
