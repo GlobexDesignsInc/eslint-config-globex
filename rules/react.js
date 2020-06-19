@@ -40,7 +40,6 @@ module.exports = {
 		'jsx-a11y/tabindex-no-positive': 'error',
 		'jsx-quotes': ['error', 'prefer-single'],
 		'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: true}],
-		'react/display-name': ['error', {ignoreTranspilerName: true}],
 		'react/forbid-foreign-prop-types': 'error',
 		'react/forbid-prop-types': ['error', {forbid: ['any', 'array', 'object']}],
 		'react/jsx-boolean-value': ['error', 'always'],
@@ -172,6 +171,7 @@ module.exports = {
 
 		'react/button-has-type': 'off',
 		'react/destructuring-assignment': 'off',
+		'react/display-name': 'off',
 		'react/forbid-component-props': 'off',
 		'react/forbid-elements': 'off',
 		'react/jsx-child-element-spacing': 'off',
