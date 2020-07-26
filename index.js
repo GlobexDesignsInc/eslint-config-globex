@@ -11,7 +11,7 @@ module.exports = {
 		__DEV__: 'writeable',
 	},
 	parserOptions: {
-		ecmaVersion: 2017,
+		ecmaVersion: 2020,
 		sourceType: 'module',
 	},
 	plugins: [
@@ -319,7 +319,7 @@ module.exports = {
 		'function-call-argument-newline': 'off',
 		'function-paren-newline': 'off',
 		'grouped-accessor-pairs': 'off',
-		'id-blacklist': ['off', 'data', 'err', 'e', 'cb', 'callback'],
+		'id-denylist': ['off', 'data', 'err', 'e', 'cb', 'callback'],
 		'id-length': ['off', {min: 3, max: 30, exceptions: ['i', 'x']}],
 		'id-match': ['off', '^[a-z]+([A-Z][a-z]+)*$', {properties: false}],
 		'implicit-arrow-linebreak': 'off',
