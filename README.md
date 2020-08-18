@@ -30,10 +30,10 @@ yarn add -D eslint-config-globex
 
 > **NOTE**: `eslint-config-globex` comes with its own `eslint-globex` bin tool so that you don't need to install `eslint` as a peerDependency. All the necessary dependencies are bundled together for you.
 
-Add the config to your `.eslintrc` file:
+Add the config to your `.eslintrc.js` file:
 
-```json
-{
+```js
+module.exports = {
 	"extends": [
 		// Installs the base configuration for all JavaScript projects
 		"eslint-config-globex",
