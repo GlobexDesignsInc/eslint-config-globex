@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.4.0...v4.0.0) (2020-09-05)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename jest/no-test-callback to jest/no-done-callback
+
+### Features
+
+* change ecmaVersion to 2021 ([5e2eb63](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/5e2eb63056532665acaa182e29ef87a1e99fb106))
+* rename jest/no-test-callback to jest/no-done-callback ([6853f95](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/6853f95ae227ba2b194b9372b4946ca8b8ae3af8))
+
 ## [3.4.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.3.1...v3.4.0) (2020-08-18)
 
 
