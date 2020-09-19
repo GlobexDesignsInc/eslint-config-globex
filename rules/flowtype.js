@@ -42,9 +42,6 @@ module.exports = {
 		'flowtype/require-indexer-name': ['error', 'always'],
 		'flowtype/require-parameter-type': 'error',
 		'flowtype/require-readonly-react-props': 'error',
-		'flowtype/require-return-type': ['error', 'always', {
-			annotateUndefined: 'never',
-		}],
 		'flowtype/require-types-at-top': ['error', 'always'],
 		'flowtype/require-valid-file-annotation': ['error', 'always', {
 			annotationStyle: 'line',
@@ -70,6 +67,7 @@ module.exports = {
 		'flowtype/require-compound-type-alias': 'off',
 		'flowtype/require-inexact-type': 'off',
 		'flowtype/require-exact-type': 'off',
+		'flowtype/require-return-type': 'off',
 		'flowtype/require-variable-type': 'off',
 		'flowtype/spread-exact-type': 'off',
 	},
