@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.1.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.0.1...v4.1.0) (2020-09-19)
+
+
+### Features
+
+* bump react.flowVersion setting to 0.134.0 ([2e099ae](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/2e099aee977e984a95cb73178936bf7da9badd32))
+* disable flowtype/require-return-type to encourage type inference ([c877d65](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c877d6580af08656810a5533c737de45c2330163))
+* disable promise/no-native rule ([77e7463](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/77e7463cd6e77a90f4e53d6163f565725561ac8a))
+
 ### [4.0.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.0.0...v4.0.1) (2020-09-12)
 
 ## [4.0.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v3.4.0...v4.0.0) (2020-09-05)
