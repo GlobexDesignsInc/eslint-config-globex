@@ -13,7 +13,7 @@
 		"eslint-globex": "./bin/eslint-globex.js"
 	},
 	"scripts": {
-		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
+		"eslint": "yarn eslint-globex -c index.js bin rules index.js",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"release": "standard-version",
