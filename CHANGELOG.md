@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.1.1...v4.2.0) (2020-11-24)
+
+
+### Features
+
+* add no-nonoctal-decimal-escape rule ([87ddd43](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/87ddd43d6f91fecaa7b2eeeda289d9009732b5a4))
+
 ### [4.1.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.1.0...v4.1.1) (2020-10-08)
 
 ## [4.1.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.0.1...v4.1.0) (2020-09-19)
