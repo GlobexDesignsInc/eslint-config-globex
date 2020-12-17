@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.2.0...v4.3.0) (2020-12-17)
+
+
+### Features
+
+* add no-unsafe-optional-chaining rule ([80d1a9a](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/80d1a9a5110295e26528415760600e5aee8cc61a))
+
 ## [4.2.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.1.1...v4.2.0) (2020-11-24)
 
 
