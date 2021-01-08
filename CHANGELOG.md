@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.4.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.3.0...v4.4.0) (2021-01-08)
+
+
+### Features
+
+* add react/jsx-no-constructed-context-values and react/jsx-newline rules ([527612b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/527612b0149541505e205ee323954a81917c27b7))
+
 ## [4.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.2.0...v4.3.0) (2020-12-17)
 
 
