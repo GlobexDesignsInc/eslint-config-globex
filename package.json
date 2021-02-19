@@ -23,7 +23,7 @@
 		"test": "yarn lint"
 	},
 	"dependencies": {
-		"@babel/core": "7.12.16",
+		"@babel/core": "7.12.17",
 		"@babel/eslint-parser": "7.12.16",
 		"eslint": "7.20.0",
 		"eslint-plugin-babel": "5.3.1",
