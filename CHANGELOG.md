@@ -2,6 +2,8 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0-beta.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.0.0-beta.0...v5.0.0-beta.1) (2021-02-20)
+
 ## [5.0.0-beta.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v4.4.0...v5.0.0-beta.0) (2021-02-16)
 
 * migrate from husky 4 to husky 5
