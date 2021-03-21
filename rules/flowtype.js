@@ -29,6 +29,7 @@ module.exports = {
 		'flowtype/newline-after-flow-annotation': 'error',
 		'flowtype/no-dupe-keys': 'error',
 		'flowtype/no-existential-type': 'error',
+		'flowtype/no-internal-flow-type': 'error',
 		'flowtype/no-mixed': 'error',
 		'flowtype/no-primitive-constructor-types': 'error',
 		'flowtype/no-types-missing-file-annotation': 'error',
@@ -57,9 +58,6 @@ module.exports = {
 		'flowtype/union-intersection-spacing': ['error', 'always'],
 		'flowtype/use-flow-type': 'error',
 
-		// WARNINGS
-
-
 		// DISABLED
 
 		'flowtype/no-flow-fix-me-comments': 'off',
@@ -73,7 +71,7 @@ module.exports = {
 	},
 	settings: {
 		react: {
-			flowVersion: '0.134.0',
+			flowVersion: '0.145.0',
 		},
 	},
 };
