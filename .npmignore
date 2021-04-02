@@ -1,5 +1,5 @@
 .github
+.husky
 .commitlintrc.js
-.huskyrc
 .lintstagedrc
 logo.png
