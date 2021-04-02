@@ -1,7 +1,6 @@
 /* eslint-disable import/no-commonjs */
 
 module.exports = {
-	parser: '@babel/eslint-parser',
 	env: {
 		browser: true,
 		es6: true,
@@ -10,6 +9,7 @@ module.exports = {
 	globals: {
 		__DEV__: 'writeable',
 	},
+	parser: '@babel/eslint-parser',
 	parserOptions: {
 		ecmaVersion: 2021,
 		requireConfigFile: false,

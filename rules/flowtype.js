@@ -71,7 +71,7 @@ module.exports = {
 	},
 	settings: {
 		react: {
-			flowVersion: '0.145.0',
+			flowVersion: '0.148.0',
 		},
 	},
 };
