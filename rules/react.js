@@ -161,7 +161,6 @@ module.exports = {
 		// WARNINGS
 
 		'jsx-a11y/click-events-have-key-events': 'warn',
-		'react/boolean-prop-naming': ['warn', {rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+'}],
 		'react/jsx-handler-names': ['warn', {
 			eventHandlerPrefix: '_handle',
 			eventHandlerPropPrefix: 'on',
@@ -171,6 +170,11 @@ module.exports = {
 
 		// DISABLED
 
+		// Temporarily disabled due to this bug:
+		// https://github.com/yannickcr/eslint-plugin-react/issues/1540#issuecomment-812764871
+		'react/boolean-prop-naming': ['off', {
+			rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
+		}],
 		'react/button-has-type': 'off',
 		'react/destructuring-assignment': 'off',
 		'react/display-name': 'off',
