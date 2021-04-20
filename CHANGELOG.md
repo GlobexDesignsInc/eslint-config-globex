@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.2.0...v5.3.0) (2021-04-20)
+
+
+### Features
+
+* upgrade to latest flow plugin rules ([f7c261e](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/f7c261e467c129335c5fb8861acdcb0e5a1ef684))
+
 ## [5.2.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.1.0...v5.2.0) (2021-04-03)
 
 
