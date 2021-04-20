@@ -40,9 +40,12 @@ module.exports = {
 			Function: true,
 		}],
 		'flowtype/object-type-delimiter': ['error', 'comma'],
+		'flowtype/quotes': ['error', 'single'],
 		'flowtype/require-indexer-name': ['error', 'always'],
 		'flowtype/require-parameter-type': 'error',
-		'flowtype/require-readonly-react-props': 'error',
+		'flowtype/require-readonly-react-props': ['error', {
+			useImplicitExactTypes: true,
+		}],
 		'flowtype/require-types-at-top': ['error', 'always'],
 		'flowtype/require-valid-file-annotation': ['error', 'always', {
 			annotationStyle: 'line',
@@ -57,6 +60,7 @@ module.exports = {
 		'flowtype/type-import-style': ['error', 'identifier'],
 		'flowtype/union-intersection-spacing': ['error', 'always'],
 		'flowtype/use-flow-type': 'error',
+		'flowtype/use-read-only-spread': 'error',
 
 		// DISABLED
 
