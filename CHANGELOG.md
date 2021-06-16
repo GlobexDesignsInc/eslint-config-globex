@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.4.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.3.1...v5.4.0) (2021-06-16)
+
+
+### Features
+
+* add 'next' ruleset ([7733d2d](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/7733d2dd786f3d51753e2413e3261d11771932ac))
+
 ### [5.3.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.3.0...v5.3.1) (2021-05-12)
 
 ## [5.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.2.0...v5.3.0) (2021-04-20)
