@@ -23,6 +23,7 @@
 	"dependencies": {
 		"@babel/core": "7.14.6",
 		"@babel/eslint-parser": "7.14.5",
+		"@next/eslint-plugin-next": "11.0.0",
 		"eslint": "7.28.0",
 		"eslint-plugin-babel": "5.3.1",
 		"eslint-plugin-cumul8": "1.4.56",
@@ -37,7 +38,7 @@
 		"eslint-plugin-promise": "5.1.0",
 		"eslint-plugin-react": "7.24.0",
 		"eslint-plugin-react-hooks": "4.2.0",
-		"eslint-plugin-sonarjs": "0.7.0"
+		"eslint-plugin-sonarjs": "0.8.0-125"
 	},
 	"devDependencies": {
 		"@commitlint/cli": "12.1.4",

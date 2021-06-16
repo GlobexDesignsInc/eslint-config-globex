@@ -45,6 +45,9 @@ module.exports = {
 		// (Optional) Additional rules for Jest
 		"eslint-config-globex/rules/jest",
 
+		// (Optional) Additional rules for Next.js
+		"eslint-config-globex/rules/next",
+
 		// (Optional) Additional rules for React
 		"eslint-config-globex/rules/react"
 	]
