@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.5.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.4.0...v5.5.0) (2021-07-01)
+
+
+### Features
+
+* add flowtype/enforce-line-break rule ([f51b12a](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/f51b12aa8bfcd56de71abdbc278e56d297934ed6))
+
 ## [5.4.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.3.1...v5.4.0) (2021-06-16)
 
 
