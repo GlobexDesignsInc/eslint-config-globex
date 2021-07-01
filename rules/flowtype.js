@@ -25,6 +25,7 @@ module.exports = {
 		'flowtype/boolean-style': ['error', 'boolean'],
 		'flowtype/define-flow-type': 'error',
 		'flowtype/delimiter-dangle': ['error', 'always-multiline'],
+		'flowtype/enforce-line-break': 'error',
 		'flowtype/generic-spacing': ['error', 'never'],
 		'flowtype/newline-after-flow-annotation': 'error',
 		'flowtype/no-dupe-keys': 'error',
