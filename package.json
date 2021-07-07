@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-globex",
-	"version": "5.5.0",
+	"version": "5.6.0",
 	"description": "JavaScript Code Standards for Globex - ESLint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
