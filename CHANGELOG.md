@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.7.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.6.0...v5.7.0) (2021-07-31)
+
+
+### Features
+
+* enable jest/max-nested-describe rule ([5c70875](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/5c70875a726248505214244f1494e82b65dd6df9))
+
 ## [5.6.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.5.0...v5.6.0) (2021-07-07)
 
 
