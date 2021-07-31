@@ -12,6 +12,7 @@ module.exports = {
 
 		'jest/consistent-test-it': ['error', {fn: 'it'}],
 		'jest/expect-expect': 'error',
+		'jest/max-nested-describe': ['error', {max: 3}],
 		'jest/no-alias-methods': 'error',
 		'jest/no-conditional-expect': 'error',
 		'jest/no-deprecated-functions': 'error',
