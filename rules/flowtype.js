@@ -65,6 +65,7 @@ module.exports = {
 
 		// DISABLED
 
+		'flowtype/interface-id-match': 'off',
 		'flowtype/no-flow-fix-me-comments': 'off',
 		'flowtype/no-mutable-array': 'off',
 		'flowtype/require-compound-type-alias': 'off',
@@ -76,7 +77,7 @@ module.exports = {
 	},
 	settings: {
 		react: {
-			flowVersion: '0.148.0',
+			flowVersion: '0.157.0',
 		},
 	},
 };
