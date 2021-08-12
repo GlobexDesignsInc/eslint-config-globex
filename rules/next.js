@@ -7,6 +7,7 @@ module.exports = {
 
 		'@next/next/no-document-import-in-page': 'error',
 		'@next/next/no-head-import-in-document': 'error',
+		'@next/next/no-typos': 'error',
 
 		// WARNINGS
 
