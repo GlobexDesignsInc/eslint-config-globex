@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.8.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.7.0...v5.8.0) (2021-08-12)
+
+
+### Features
+
+* enable @next/next/no-typos rule ([7094a2e](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/7094a2ec288cbb8468c826629f0d82e578386a66))
+
+
+### Bug Fixes
+
+* add flowtype/interface-id-match tracking and update flow version ([3432a29](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/3432a298e8114bf58bd2256c9b11479e73196162))
+
 ## [5.7.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.6.0...v5.7.0) (2021-07-31)
 
 
