@@ -23,7 +23,7 @@
 	"dependencies": {
 		"@babel/core": "7.15.0",
 		"@babel/eslint-parser": "7.15.0",
-		"@next/eslint-plugin-next": "11.1.0",
+		"@next/eslint-plugin-next": "11.1.1",
 		"eslint": "7.32.0",
 		"eslint-plugin-babel": "5.3.1",
 		"eslint-plugin-cumul8": "1.4.56",
