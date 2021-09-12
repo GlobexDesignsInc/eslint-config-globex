@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.9.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.8.0...v5.9.0) (2021-09-12)
+
+
+### Features
+
+* enable new next/inline-script-id and next/next-script-for-ga rules ([05471af](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/05471af4bc3e32e278e03b1abf8f3e24bf094830))
+
 ## [5.8.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.7.0...v5.8.0) (2021-08-12)
 
 
