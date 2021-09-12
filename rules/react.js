@@ -191,6 +191,7 @@ module.exports = {
 		'react/jsx-one-expression-per-line': 'off',
 		'react/no-array-index-key': 'off',
 		'react/no-set-state': 'off',
+		'react/prefer-exact-props': 'off',
 		'react/require-default-props': 'off',
 		'react/static-property-placement': 'off',
 	},
