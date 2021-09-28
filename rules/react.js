@@ -80,6 +80,7 @@ module.exports = {
 		'react/no-direct-mutation-state': 'error',
 		'react/no-is-mounted': 'error',
 		'react/no-multi-comp': ['error', {ignoreStateless: true}],
+		'react/no-namespace': 'error',
 		'react/no-redundant-should-component-update': 'error',
 		'react/no-render-return-value': 'error',
 		'react/no-string-refs': 'error',
