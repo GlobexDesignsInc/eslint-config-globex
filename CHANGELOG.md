@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0-beta.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.10.0...v6.0.0-beta.0) (2021-10-14)
+
+
+### ⚠ BREAKING CHANGES
+
+* upgrade to eslint@8
+* update jest rules for eslint-plugin-jest@25
+
+### Features
+
+* enable new jest/prefer-expect-resolves and jest/prefer-to-be rules ([6c9cd46](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/6c9cd46a035f91dd05efb38727ee9000168f4276))
+* update jest rules for eslint-plugin-jest@25 ([1fa91fc](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1fa91fc9bd81b4c55fadea802cd63894c3613cd8))
+* upgrade to eslint@8 ([4f38559](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/4f385592f4f4f4baaf5f33731e0d8d77c6a79428))
+
 ## [5.10.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.9.0...v5.10.0) (2021-09-28)
 
 
