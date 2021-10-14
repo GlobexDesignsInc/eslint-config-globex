@@ -31,12 +31,10 @@ module.exports = {
 		'jest/prefer-hooks-on-top': 'error',
 		'jest/prefer-spy-on': 'error',
 		'jest/prefer-to-be': 'error',
-		'jest/prefer-to-be-null': 'error',
-		'jest/prefer-to-be-undefined': 'error',
 		'jest/prefer-to-contain': 'error',
 		'jest/prefer-to-have-length': 'error',
 		'jest/require-top-level-describe': 'error',
-		'jest/valid-describe': 'error',
+		'jest/valid-describe-callback': 'error',
 		'jest/valid-expect-in-promise': 'error',
 		'jest/valid-expect': 'error',
 		'jest/valid-title': 'error',
@@ -51,13 +49,13 @@ module.exports = {
 
 		// DISABLED
 
-		'jest/lowercase-name': 'off',
 		'jest/no-hooks': 'off',
 		'jest/no-mocks-import': 'off',
 		'jest/no-restricted-matchers': 'off',
 		'jest/no-test-prefixes': 'off',
 		'jest/prefer-called-with': 'off',
 		'jest/prefer-expect-assertions': 'off',
+		'jest/prefer-lowercase-title': 'off',
 		'jest/prefer-strict-equal': 'off',
 		'jest/unbound-method': 'off',
 	},
