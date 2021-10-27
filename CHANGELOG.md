@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0-beta.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.0.0-beta.0...v6.0.0-beta.1) (2021-10-27)
+
+
+### Features
+
+* enable new no-unused-private-class-members rule ([4f7c510](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/4f7c510c4dd4a27388a984ef12a7cd36e36fb09e))
+
 ## [6.0.0-beta.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v5.10.0...v6.0.0-beta.0) (2021-10-14)
 
 
