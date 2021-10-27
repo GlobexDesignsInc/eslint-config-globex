@@ -199,6 +199,7 @@ module.exports = {
 		'no-unsafe-negation': 'error',
 		'no-unsafe-optional-chaining': 'error',
 		'no-unused-expressions': 'error',
+		'no-unused-private-class-members': 'error',
 		'no-unused-vars': ['error', {args: 'none'}],
 		'no-useless-call': 'error',
 		'no-useless-catch': 'error',
