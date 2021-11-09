@@ -1,7 +1,7 @@
 {
 	"name": "eslint-config-globex",
 	"version": "6.0.0",
-	"description": "JavaScript Code Standards for Globex - ESLint Shareable Config",
+	"description": "JavaScript Code Standards for Globex Designs - ESLint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
 	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
@@ -47,5 +47,6 @@
 		"lint-staged": "11.2.6",
 		"prettier-package-json": "2.6.0",
 		"standard-version": "9.3.2"
-	}
+	},
+	"packageManager": "yarn@3.1.0"
 }
