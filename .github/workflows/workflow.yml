@@ -8,9 +8,14 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16.x
+
     - name: Get yarn cache directory path
       id: yarn-cache-dir-path
-      run: echo "::set-output name=dir::$(yarn cache dir)"
+      run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
     
     - uses: actions/cache@v2
       id: yarn-cache
@@ -20,11 +25,6 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-yarn-
 
-    - name: Use Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: 16.x
-    
     - name: Test
       run: |
         yarn install
