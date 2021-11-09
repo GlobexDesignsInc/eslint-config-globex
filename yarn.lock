@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.16.0":
+"@babel/core@npm:^7.16.0":
   version: 7.16.0
   resolution: "@babel/core@npm:7.16.0"
   dependencies:
@@ -44,7 +44,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-parser@npm:7.16.0":
+"@babel/eslint-parser@npm:^7.16.0":
   version: 7.16.0
   resolution: "@babel/eslint-parser@npm:7.16.0"
   dependencies:
@@ -58,7 +58,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/eslint-plugin@npm:7.14.5":
+"@babel/eslint-plugin@npm:^7.14.5":
   version: 7.14.5
   resolution: "@babel/eslint-plugin@npm:7.14.5"
   dependencies:
@@ -299,7 +299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:14.1.0":
+"@commitlint/cli@npm:^14.1.0":
   version: 14.1.0
   resolution: "@commitlint/cli@npm:14.1.0"
   dependencies:
@@ -318,7 +318,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:14.1.0":
+"@commitlint/config-conventional@npm:^14.1.0":
   version: 14.1.0
   resolution: "@commitlint/config-conventional@npm:14.1.0"
   dependencies:
@@ -529,7 +529,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:12.0.3":
+"@next/eslint-plugin-next@npm:^12.0.3":
   version: 12.0.3
   resolution: "@next/eslint-plugin-next@npm:12.0.3"
   dependencies:
@@ -1631,30 +1631,30 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "eslint-config-globex@workspace:."
   dependencies:
-    "@babel/core": 7.16.0
-    "@babel/eslint-parser": 7.16.0
-    "@babel/eslint-plugin": 7.14.5
-    "@commitlint/cli": 14.1.0
-    "@commitlint/config-conventional": 14.1.0
-    "@next/eslint-plugin-next": 12.0.3
-    eslint: 8.2.0
-    eslint-plugin-cumul8: 1.4.56
-    eslint-plugin-filenames: 1.3.2
-    eslint-plugin-flowtype: 8.0.3
-    eslint-plugin-import: 2.25.2
-    eslint-plugin-jasmine: 4.1.2
-    eslint-plugin-jest: 25.2.4
-    eslint-plugin-json: 3.1.0
-    eslint-plugin-jsx-a11y: 6.4.1
-    eslint-plugin-node: 11.1.0
-    eslint-plugin-promise: 5.1.1
-    eslint-plugin-react: 7.26.1
-    eslint-plugin-react-hooks: 4.2.0
-    eslint-plugin-sonarjs: 0.10.0
-    husky: 7.0.4
-    lint-staged: 11.2.6
-    prettier-package-json: 2.6.0
-    standard-version: 9.3.2
+    "@babel/core": ^7.16.0
+    "@babel/eslint-parser": ^7.16.0
+    "@babel/eslint-plugin": ^7.14.5
+    "@commitlint/cli": ^14.1.0
+    "@commitlint/config-conventional": ^14.1.0
+    "@next/eslint-plugin-next": ^12.0.3
+    eslint: ^8.2.0
+    eslint-plugin-cumul8: ^1.4.56
+    eslint-plugin-filenames: ^1.3.2
+    eslint-plugin-flowtype: ^8.0.3
+    eslint-plugin-import: ^2.25.2
+    eslint-plugin-jasmine: ^4.1.2
+    eslint-plugin-jest: ^25.2.4
+    eslint-plugin-json: ^3.1.0
+    eslint-plugin-jsx-a11y: ^6.4.1
+    eslint-plugin-node: ^11.1.0
+    eslint-plugin-promise: ^5.1.1
+    eslint-plugin-react: ^7.26.1
+    eslint-plugin-react-hooks: ^4.2.0
+    eslint-plugin-sonarjs: ^0.10.0
+    husky: ^7.0.4
+    lint-staged: ^11.2.6
+    prettier-package-json: ^2.6.0
+    standard-version: ^9.3.2
   bin:
     eslint-globex: ./bin/eslint-globex.js
   languageName: unknown
@@ -1681,7 +1681,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-cumul8@npm:1.4.56":
+"eslint-plugin-cumul8@npm:^1.4.56":
   version: 1.4.56
   resolution: "eslint-plugin-cumul8@npm:1.4.56"
   peerDependencies:
@@ -1702,7 +1702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-filenames@npm:1.3.2":
+"eslint-plugin-filenames@npm:^1.3.2":
   version: 1.3.2
   resolution: "eslint-plugin-filenames@npm:1.3.2"
   dependencies:
@@ -1716,7 +1716,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-flowtype@npm:8.0.3":
+"eslint-plugin-flowtype@npm:^8.0.3":
   version: 8.0.3
   resolution: "eslint-plugin-flowtype@npm:8.0.3"
   dependencies:
@@ -1730,7 +1730,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-import@npm:2.25.2":
+"eslint-plugin-import@npm:^2.25.2":
   version: 2.25.2
   resolution: "eslint-plugin-import@npm:2.25.2"
   dependencies:
@@ -1753,14 +1753,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jasmine@npm:4.1.2":
+"eslint-plugin-jasmine@npm:^4.1.2":
   version: 4.1.2
   resolution: "eslint-plugin-jasmine@npm:4.1.2"
   checksum: 0ce260d2ed15548a2e1f1be65cd5ee6aeb572ce7e3f0223dbac1a006a0c8a96863efd8cfd1ff69ef88c701d14d678bd8689e8120519452cc14a1ff7c2d37d791
   languageName: node
   linkType: hard
 
-"eslint-plugin-jest@npm:25.2.4":
+"eslint-plugin-jest@npm:^25.2.4":
   version: 25.2.4
   resolution: "eslint-plugin-jest@npm:25.2.4"
   dependencies:
@@ -1777,7 +1777,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-json@npm:3.1.0":
+"eslint-plugin-json@npm:^3.1.0":
   version: 3.1.0
   resolution: "eslint-plugin-json@npm:3.1.0"
   dependencies:
@@ -1787,7 +1787,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-jsx-a11y@npm:6.4.1":
+"eslint-plugin-jsx-a11y@npm:^6.4.1":
   version: 6.4.1
   resolution: "eslint-plugin-jsx-a11y@npm:6.4.1"
   dependencies:
@@ -1808,7 +1808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-node@npm:11.1.0":
+"eslint-plugin-node@npm:^11.1.0":
   version: 11.1.0
   resolution: "eslint-plugin-node@npm:11.1.0"
   dependencies:
@@ -1824,7 +1824,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-promise@npm:5.1.1":
+"eslint-plugin-promise@npm:^5.1.1":
   version: 5.1.1
   resolution: "eslint-plugin-promise@npm:5.1.1"
   peerDependencies:
@@ -1833,7 +1833,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react-hooks@npm:4.2.0":
+"eslint-plugin-react-hooks@npm:^4.2.0":
   version: 4.2.0
   resolution: "eslint-plugin-react-hooks@npm:4.2.0"
   peerDependencies:
@@ -1842,7 +1842,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-react@npm:7.26.1":
+"eslint-plugin-react@npm:^7.26.1":
   version: 7.26.1
   resolution: "eslint-plugin-react@npm:7.26.1"
   dependencies:
@@ -1866,7 +1866,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-sonarjs@npm:0.10.0":
+"eslint-plugin-sonarjs@npm:^0.10.0":
   version: 0.10.0
   resolution: "eslint-plugin-sonarjs@npm:0.10.0"
   peerDependencies:
@@ -1943,7 +1943,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.2.0":
+"eslint@npm:^8.2.0":
   version: 8.2.0
   resolution: "eslint@npm:8.2.0"
   dependencies:
@@ -2519,7 +2519,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"husky@npm:7.0.4":
+"husky@npm:^7.0.4":
   version: 7.0.4
   resolution: "husky@npm:7.0.4"
   bin:
@@ -2961,7 +2961,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:11.2.6":
+"lint-staged@npm:^11.2.6":
   version: 11.2.6
   resolution: "lint-staged@npm:11.2.6"
   dependencies:
@@ -3680,7 +3680,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-package-json@npm:2.6.0":
+"prettier-package-json@npm:^2.6.0":
   version: 2.6.0
   resolution: "prettier-package-json@npm:2.6.0"
   dependencies:
@@ -4181,7 +4181,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"standard-version@npm:9.3.2":
+"standard-version@npm:^9.3.2":
   version: 9.3.2
   resolution: "standard-version@npm:9.3.2"
   dependencies:
