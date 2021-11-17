@@ -3,4 +3,6 @@
 .yarn
 .commitlintrc.js
 .lintstagedrc
+CONTRIBUTING.md
 logo.png
+.yarnrc.yml
