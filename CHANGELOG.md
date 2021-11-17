@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.1.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.0.0...v6.1.0) (2021-11-17)
+
+
+### Features
+
+* enable new react plugin rules ([ea9232e](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/ea9232ea83175f5e96e86860fdeb02771aa88263))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/eslint-parser to ^7.16.3 ([956672b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/956672b42891bb75c052081cd3801f5f22ffc7e6))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.0.4 ([08e31d4](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/08e31d436efa3db90039283c58e7b2af0acf27e4))
+* **deps:** update dependency eslint-plugin-import to ^2.25.3 ([d2984b0](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/d2984b0173d5709a7af8f72de0358cfe7b261ed8))
+* **deps:** update dependency eslint-plugin-jsx-a11y to ^6.5.1 ([f4c013a](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/f4c013a18c716a114eb217d2f3781a5966e989c2))
+* **deps:** update dependency eslint-plugin-react to ^7.27.0 ([5c66ecd](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/5c66ecd2109987c4b7a8244b592aee5ea96f498d))
+* **deps:** update dependency eslint-plugin-react-hooks to ^4.3.0 ([8678681](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/86786811e15b11cc1d4f137d640caedfd00282f2))
+
 ## [6.0.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.0.0-beta.1...v6.0.0) (2021-11-09)
 
 ## [6.0.0-beta.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.0.0-beta.0...v6.0.0-beta.1) (2021-10-27)
