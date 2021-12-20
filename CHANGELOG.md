@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.2.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.1.1...v6.2.0) (2021-12-20)
+
+
+### Features
+
+* change ecmaVersion from 2021 to "latest" ([10fa4f9](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/10fa4f9ba27f43274c7f1338b59c97c895e70f1e))
+* enable new eslint-plugin-react rules ([0fb716c](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/0fb716c0034c27e6b480c3a1fcf4770f3d92c342))
+* enable prefer-object-has-own rule ([5cd9fdb](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/5cd9fdbb6421e179cabccd8c9504cc2067ee6829))
+
+
+### Bug Fixes
+
+* **deps:** update babel monorepo to ^7.16.5 ([c016137](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c016137123d412a3bca86204464b0a4d2f134bfb))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.0.5 ([b98d9ee](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/b98d9ee21ba52e9642b336a415dc3142e5746ccb))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.0.6 ([1d4f793](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1d4f79342091fb37acc58e96b28e6d25565d2216))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.0.7 ([bd04fec](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/bd04fec39026761b1dfc5163260671be29c0468d))
+* **deps:** update dependency eslint to ^8.3.0 ([ad20e82](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/ad20e82d22ac31d55c7a064a7d007ebd06e2226a))
+* **deps:** update dependency eslint to ^8.4.0 ([145946c](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/145946cb1078a3b0d9b1b0ed93a1e3a435e492a0))
+* **deps:** update dependency eslint to ^8.4.1 ([c996539](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c996539d49eb63732f730b7af91251bc910d665c))
+* **deps:** update dependency eslint to ^8.5.0 ([60e8100](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/60e8100722a45dc1abe0446165a7968560c5c098))
+* **deps:** update dependency eslint-plugin-jasmine to ^4.1.3 ([4063ad0](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/4063ad047b105fb589377559b49d4efa642dca2e))
+* **deps:** update dependency eslint-plugin-jest to ^25.3.0 ([e6802b4](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/e6802b41b4b992a7d41a6380d9ff025d5fd29287))
+* **deps:** update dependency eslint-plugin-promise to ^5.2.0 ([1b7d7bb](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1b7d7bb48d93f93a7a8351b4796894ec75746b89))
+* **deps:** update dependency eslint-plugin-promise to v6 ([b685f01](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/b685f0110f83d2a0bb3993a68ade9b291234c10d))
+* **deps:** update dependency eslint-plugin-react to ^7.27.1 ([a91890b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/a91890b96c7960730eebc960e5501218c2e3e6fb))
+* **deps:** update dependency eslint-plugin-sonarjs to ^0.11.0 ([cd4dee2](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/cd4dee281fbf4c8d21c59c6c0cfd4888ebafa78f))
+
 ### [6.1.1](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.1.0...v6.1.1) (2021-11-17)
 
 ## [6.1.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.0.0...v6.1.0) (2021-11-17)
