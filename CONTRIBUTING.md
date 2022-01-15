@@ -4,4 +4,4 @@ From opening a bug report to creating a pull request, every contribution is appr
 
 ## Publish a new version
 
-- Trigger a run of the `Release` workflow [in GitHub Actions](https://github.com/GlobexDesignsInc/eslint-config-globex/actions/workflows/release.yml)
+Releases are done via [`semantic-release`](https://github.com/semantic-release/semantic-release). To publish a new version, merge the `dev` branch to `master`. Do publish a new beta version, push changes to the `beta` branch.
