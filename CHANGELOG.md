@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.3.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.2.0...v6.3.0) (2022-01-15)
+
+
+### Features
+
+* add new @next/next/no-head-element rule ([4cc514d](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/4cc514da6233024beaec003f200b6b6b8a760798))
+* add new jest/prefer-* rules ([c592384](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/c592384af6aed0afd5dd6122101138077719da66))
+* remove react/jsx-space-before-closing deprecated rule ([cb8f7df](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/cb8f7dfed98418cfca9e655e8f55a7a0bab61c3d))
+
+
+### Bug Fixes
+
+* **deps:** update dependency @babel/core to ^7.16.7 ([cc6da3b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/cc6da3b188ed3d135fe79ada76cf00bd92ba6aef))
+* **deps:** update dependency @next/eslint-plugin-next to ^12.0.8 ([7a3f88c](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/7a3f88c364993ac385806a7344541772b288bfdc))
+* **deps:** update dependency eslint to ^8.6.0 ([5f75008](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/5f75008c22bee6c462cbf1fd62b62efb76f3fc37))
+* **deps:** update dependency eslint-plugin-import to ^2.25.4 ([1a48fb3](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/1a48fb3963b86222c774b60fccac576079649848))
+* **deps:** update dependency eslint-plugin-jest to ^25.3.2 ([9224c3d](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/9224c3d68ddb450b5b34656ec051d37e42e35954))
+* **deps:** update dependency eslint-plugin-jest to ^25.3.3 ([d352756](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/d352756654e0d65378d3a3335faa2dd6aa01c2eb))
+* **deps:** update dependency eslint-plugin-jest to ^25.3.4 ([42fabcd](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/42fabcd8b7f8092746998c3f0d42b5693fb58d1f))
+* **deps:** update dependency eslint-plugin-jest to ^25.7.0 ([995c87c](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/995c87cb588c0aa0ce79033062bf4eb8b945801b))
+* **deps:** update dependency eslint-plugin-react to ^7.28.0 ([b7d8b6b](https://github.com/GlobexDesignsInc/eslint-config-globex/commit/b7d8b6b222527bd6d9fd653ebe560742160d9aa8))
+
 ## [6.2.0](https://github.com/GlobexDesignsInc/eslint-config-globex/compare/v6.1.1...v6.2.0) (2021-12-20)
 
 
