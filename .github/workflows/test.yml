@@ -1,6 +1,6 @@
 name: Test
 
-on: push
+on: [push, pull_request]
 
 jobs:
   test:
@@ -10,11 +10,11 @@ jobs:
     
     - uses: actions/setup-node@v2
       with:
-        node-version: '16'
         cache: 'yarn'
+        node-version: 'lts/*'
 
-    - name: Install
-      run: yarn install
+    - name: Install dependencies
+      run: yarn install --pure-lockfile
     
     - name: Test
       run: yarn test

@@ -1,10 +1,14 @@
 {
 	"name": "eslint-config-globex",
-	"version": "6.3.0",
+	"version": "0.0.0-development",
 	"description": "JavaScript Code Standards for Globex Designs - ESLint Shareable Config",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
 	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex.git"
+	},
 	"bugs": {
 		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
 	},
@@ -17,7 +21,7 @@
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"prepare": "husky install",
-		"release": "standard-version",
+		"semantic-release": "semantic-release",
 		"test": "yarn lint"
 	},
 	"dependencies": {
@@ -46,7 +50,7 @@
 		"husky": "7.0.4",
 		"lint-staged": "12.1.7",
 		"prettier-package-json": "2.6.0",
-		"standard-version": "9.3.2"
+		"semantic-release": "18.0.1"
 	},
 	"packageManager": "yarn@3.1.1"
 }

@@ -4,17 +4,4 @@ From opening a bug report to creating a pull request, every contribution is appr
 
 ## Publish a new version
 
-```sh
-yarn test
-
-# for regular releases
-yarn release
-
-# for beta releases
-yarn release --prerelease beta
-
-# confirm code looks good
-
-# then publish
-git push --follow-tags origin master && npm publish
-```
+- Trigger a run of the `Release` workflow [in GitHub Actions](https://github.com/GlobexDesignsInc/eslint-config-globex/actions/workflows/release.yml)
