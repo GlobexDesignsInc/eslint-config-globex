@@ -17,6 +17,7 @@ module.exports = {
 		'@next/next/google-font-preconnect': 'warn',
 		'@next/next/link-passhref': 'warn',
 		'@next/next/no-css-tags': 'warn',
+		'@next/next/no-head-element': 'warn',
 		'@next/next/no-html-link-for-pages': 'warn',
 		'@next/next/no-img-element': 'warn',
 		'@next/next/no-page-custom-font': 'warn',
