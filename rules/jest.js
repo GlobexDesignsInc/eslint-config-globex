@@ -27,6 +27,8 @@ module.exports = {
 		'jest/no-jest-import': 'error',
 		'jest/no-standalone-expect': 'error',
 		'jest/no-test-return-statement': 'error',
+		'jest/prefer-comparison-matcher': 'error',
+		'jest/prefer-equality-matcher': 'error',
 		'jest/prefer-expect-resolves': 'error',
 		'jest/prefer-hooks-on-top': 'error',
 		'jest/prefer-spy-on': 'error',
