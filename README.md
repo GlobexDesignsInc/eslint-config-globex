@@ -66,3 +66,13 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 	}
 }
 ```
+
+### TypeScript
+
+When using the `eslint-config-globex/rules/typescript` rule set, make sure to set the `parserOptions.project` config setting in your project's `.eslintrc` file:
+
+```js
+parserOptions: {
+	project: './tsconfig.json'
+}
+```
