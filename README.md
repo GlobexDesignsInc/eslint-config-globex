@@ -49,7 +49,10 @@ module.exports = {
 		"eslint-config-globex/rules/next",
 
 		// (Optional) Additional rules for React
-		"eslint-config-globex/rules/react"
+		"eslint-config-globex/rules/react",
+
+		// (Optional) Additional rules for TypeScript
+		"eslint-config-globex/rules/typescript"
 	]
 }
 ```
