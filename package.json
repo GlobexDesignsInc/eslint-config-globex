@@ -16,6 +16,9 @@
 	"bin": {
 		"eslint-globex": "./bin/eslint-globex.js"
 	},
+	"resolutions": {
+		"chalk": "4.1.2"
+	},
 	"scripts": {
 		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
 		"lint": "yarn eslint && yarn packagelint",
@@ -53,6 +56,11 @@
 		"lint-staged": "12.3.4",
 		"prettier-package-json": "2.6.0",
 		"semantic-release": "19.0.2"
+	},
+	"comments": {
+		"resolutions": {
+			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
+		}
 	},
 	"packageManager": "yarn@3.1.1"
 }
