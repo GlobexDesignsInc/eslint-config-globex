@@ -16,16 +16,16 @@
 	"bin": {
 		"eslint-globex": "./bin/eslint-globex.js"
 	},
-	"resolutions": {
-		"chalk": "4.1.2"
-	},
 	"scripts": {
 		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
+		"postinstall": "husky install",
 		"lint": "yarn eslint && yarn packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
-		"prepare": "husky install",
 		"semantic-release": "semantic-release",
 		"test": "yarn lint"
+	},
+	"resolutions": {
+		"chalk": "4.1.2"
 	},
 	"dependencies": {
 		"@babel/core": "^7.17.5",
