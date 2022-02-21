@@ -20,6 +20,8 @@
 		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
 		"postinstall": "husky install",
 		"lint": "yarn eslint && yarn packagelint",
+		"prepack": "pinst --disable",
+		"postpack": "pinst --enable",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
 		"semantic-release": "semantic-release",
 		"test": "yarn lint"
@@ -54,6 +56,7 @@
 		"@commitlint/config-conventional": "16.2.1",
 		"husky": "7.0.4",
 		"lint-staged": "12.3.4",
+		"pinst": "3.0.0",
 		"prettier-package-json": "2.6.0",
 		"semantic-release": "19.0.2"
 	},
