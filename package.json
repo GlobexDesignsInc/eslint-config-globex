@@ -62,5 +62,5 @@
 			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
 		}
 	},
-	"packageManager": "yarn@3.1.1"
+	"packageManager": "yarn@3.2.0"
 }
