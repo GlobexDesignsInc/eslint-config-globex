@@ -46,6 +46,8 @@ module.exports = {
 			namedComponents: 'arrow-function',
 			unnamedComponents: 'arrow-function',
 		}],
+		'react/hook-use-state': 'error',
+		'react/iframe-missing-sandbox': 'error',
 		'react/jsx-boolean-value': ['error', 'always'],
 		'react/jsx-closing-bracket-location': ['error', {location: 'after-props'}],
 		'react/jsx-closing-tag-location': 'error',
