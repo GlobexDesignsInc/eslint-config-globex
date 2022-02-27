@@ -17,7 +17,6 @@ module.exports = {
 	},
 	plugins: [
 		'@babel',
-		'cumul8',
 		'filenames',
 		'import',
 		'json',
@@ -49,10 +48,6 @@ module.exports = {
 		'consistent-return': 'error',
 		'consistent-this': 'error',
 		'constructor-super': 'error',
-		'cumul8/alphabetical-destructuring': 'error',
-		'cumul8/alphabetical-stylesheets': 'error',
-		'cumul8/inefficient-for-each': 'error',
-		'cumul8/inefficient-for-loop': 'error',
 		'default-param-last': 'error',
 		'dot-location': ['error', 'property'],
 		'dot-notation': 'error',
