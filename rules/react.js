@@ -54,7 +54,7 @@ module.exports = {
 		'react/jsx-curly-newline': ['error', {multiline: 'consistent', singleline: 'consistent'}],
 		'react/jsx-curly-spacing': ['error', 'never'],
 		'react/jsx-equals-spacing': ['error', 'never'],
-		'react/jsx-fragments': ['error', 'element'],
+		'react/jsx-fragments': ['error', 'syntax'],
 		'react/jsx-indent': ['error', 'tab'],
 		'react/jsx-indent-props': ['error', 'tab'],
 		'react/jsx-key': 'error',
