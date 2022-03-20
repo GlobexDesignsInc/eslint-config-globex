@@ -18,7 +18,7 @@ jobs:
     
     - name: Test
       run: yarn test
-
+  
   Release:
     if: github.ref == 'refs/heads/master' || github.ref == 'refs/heads/beta'
     runs-on: ubuntu-latest

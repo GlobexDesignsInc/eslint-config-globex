@@ -1,0 +1,37 @@
+name: Test Against Repos
+
+on: [push, pull_request]
+
+jobs:
+  Integration_Tests:
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        repos: [
+          {name: 'haus.gg', repository: 'EvHaus/haus.gg'},
+          {name: 'globexdesigns.com', repository: 'GlobexDesignsInc/globexdesigns.com'}
+        ]
+
+    steps:
+    - uses: actions/checkout@v3
+    
+    - uses: actions/setup-node@v3
+      with:
+        cache: 'yarn'
+        node-version: 'lts/*'
+
+    - name: Install dependencies
+      run: yarn install
+    
+    - name: Check out repo
+      uses: actions/checkout@v3
+      with:
+        path: ${{ matrix.repos.name }}
+        repository: ${{ matrix.repos.repository }}
+    
+    - name: Install repo dependencies with link
+      run: cd ${{ matrix.repos.name }} && yarn link ../
+    
+    - name: Run eslint
+      run: cd ${{ matrix.repos.name }} && yarn eslint
