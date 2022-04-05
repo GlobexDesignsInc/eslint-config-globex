@@ -177,7 +177,6 @@ module.exports = {
 			'@typescript-eslint/no-useless-constructor': 'error',
 			'@typescript-eslint/no-useless-empty-export': 'error',
 			'@typescript-eslint/no-var-requires': 'error',
-			'@typescript-eslint/non-nullable-type-assertion-style': 'error',
 			'@typescript-eslint/padding-line-between-statements': [
 				'error',
 				{blankLine: 'always', prev: ['directive'], next: '*'},
@@ -267,6 +266,7 @@ module.exports = {
 			quotes: 'off',
 			'require-await': 'off',
 			'no-return-await': 'off',
+			'@typescript-eslint/non-nullable-type-assertion-style': 'off',
 			semi: 'off',
 			'@typescript-eslint/semi': 'off',
 			'space-before-blocks': 'off',
