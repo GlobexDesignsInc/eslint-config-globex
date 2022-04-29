@@ -30,7 +30,7 @@
 		"chalk": "4.1.2"
 	},
 	"dependencies": {
-		"@babel/core": "^7.17.9",
+		"@babel/core": "^7.17.10",
 		"@babel/eslint-parser": "^7.17.0",
 		"@babel/eslint-plugin": "^7.17.7",
 		"@next/eslint-plugin-next": "^12.1.5",
