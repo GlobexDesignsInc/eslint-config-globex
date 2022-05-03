@@ -131,6 +131,7 @@ module.exports = {
 			'@typescript-eslint/no-base-to-string': 'error',
 			'@typescript-eslint/no-confusing-non-null-assertion': 'error',
 			'@typescript-eslint/no-dupe-class-members': 'error',
+			'@typescript-eslint/no-duplicate-enum-values': 'error',
 			'@typescript-eslint/no-duplicate-imports': 'error',
 			'@typescript-eslint/no-dynamic-delete': 'error',
 			'@typescript-eslint/no-empty-interface': 'error',
