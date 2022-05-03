@@ -33,7 +33,7 @@
 		"@babel/core": "^7.17.10",
 		"@babel/eslint-parser": "^7.17.0",
 		"@babel/eslint-plugin": "^7.17.7",
-		"@next/eslint-plugin-next": "^12.1.5",
+		"@next/eslint-plugin-next": "^12.1.6",
 		"@typescript-eslint/eslint-plugin": "^5.22.0",
 		"@typescript-eslint/parser": "^5.22.0",
 		"eslint": "^8.14.0",
