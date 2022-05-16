@@ -51,8 +51,8 @@
 		"eslint-plugin-sonarjs": "^0.13.0"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "16.3.0",
-		"@commitlint/config-conventional": "16.2.4",
+		"@commitlint/cli": "17.0.0",
+		"@commitlint/config-conventional": "17.0.0",
 		"husky": "8.0.1",
 		"lint-staged": "12.4.1",
 		"pinst": "3.0.0",
