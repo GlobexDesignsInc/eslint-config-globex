@@ -210,6 +210,7 @@ module.exports = {
 			'@typescript-eslint/type-annotation-spacing': 'error',
 			'@typescript-eslint/unbound-method': 'error',
 			'@typescript-eslint/unified-signatures': 'error',
+			'import/no-duplicates': 'error',
 
 			// DISABLED
 
@@ -231,6 +232,7 @@ module.exports = {
 			'no-array-constructor': 'off',
 			'@typescript-eslint/no-confusing-void-expression': 'off',
 			'no-dupe-class-members': 'off',
+			'no-duplicate-imports': 'off',
 			'no-empty-function': 'off',
 			'no-extra-parens': 'off',
 			'@typescript-eslint/no-extra-parens': 'off',
