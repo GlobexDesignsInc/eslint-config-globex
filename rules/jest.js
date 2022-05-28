@@ -30,6 +30,7 @@ module.exports = {
 		'jest/prefer-comparison-matcher': 'error',
 		'jest/prefer-equality-matcher': 'error',
 		'jest/prefer-expect-resolves': 'error',
+		'jest/prefer-hooks-in-order': 'error',
 		'jest/prefer-hooks-on-top': 'error',
 		'jest/prefer-snapshot-hint': 'error',
 		'jest/prefer-spy-on': 'error',
