@@ -57,7 +57,7 @@
 		"lint-staged": "13.0.1",
 		"pinst": "3.0.0",
 		"prettier-package-json": "2.6.3",
-		"semantic-release": "19.0.2"
+		"semantic-release": "19.0.3"
 	},
 	"comments": {
 		"resolutions": {
