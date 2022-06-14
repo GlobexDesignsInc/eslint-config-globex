@@ -89,6 +89,7 @@ module.exports = {
 				tuples: 'never',
 			}],
 			'@typescript-eslint/comma-spacing': ['error', {before: false, after: true}],
+			'@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
 			'@typescript-eslint/consistent-indexed-object-style': 'error',
 			'@typescript-eslint/consistent-type-definitions': ['error', 'type'],
 			'@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
