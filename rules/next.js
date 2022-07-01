@@ -7,8 +7,13 @@ module.exports = {
 
 		'@next/next/inline-script-id': 'error',
 		'@next/next/next-script-for-ga': 'error',
+		'@next/next/no-assign-module-variable': 'error',
+		'@next/next/no-before-interactive-script-outside-document': 'error',
 		'@next/next/no-document-import-in-page': 'error',
+		'@next/next/no-duplicate-head': 'error',
 		'@next/next/no-head-import-in-document': 'error',
+		'@next/next/no-script-component-in-head': 'error',
+		'@next/next/no-styled-jsx-in-document': 'error',
 		'@next/next/no-typos': 'error',
 
 		// WARNINGS
