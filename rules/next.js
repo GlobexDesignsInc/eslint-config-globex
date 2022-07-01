@@ -7,7 +7,8 @@ module.exports = {
 
 		'@next/next/inline-script-id': 'error',
 		'@next/next/next-script-for-ga': 'error',
-		'@next/next/no-assign-module-variable': 'error',
+		// Re-enable this when https://github.com/vercel/next.js/pull/38134 ship
+		// '@next/next/no-assign-module-variable': 'error',
 		'@next/next/no-before-interactive-script-outside-document': 'error',
 		'@next/next/no-document-import-in-page': 'error',
 		'@next/next/no-duplicate-head': 'error',
