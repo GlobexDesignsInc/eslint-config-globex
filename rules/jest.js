@@ -53,6 +53,7 @@ module.exports = {
 
 		// DISABLED
 
+		'jest/max-expects': 'off',
 		'jest/no-hooks': 'off',
 		'jest/no-mocks-import': 'off',
 		'jest/no-restricted-matchers': 'off',
