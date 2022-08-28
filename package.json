@@ -57,9 +57,13 @@
 		"lint-staged": "13.0.3",
 		"pinst": "3.0.0",
 		"prettier-package-json": "2.6.4",
-		"semantic-release": "19.0.5"
+		"semantic-release": "19.0.5",
+		"ts-node": "10.9.1"
 	},
 	"comments": {
+		"devDependencies": {
+			"ts-node": "Needed for commitlint. See https://github.com/conventional-changelog/commitlint/issues/3347."
+		},
 		"resolutions": {
 			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
 		}
