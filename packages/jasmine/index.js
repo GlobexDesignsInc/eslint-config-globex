@@ -1,12 +1,8 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
 	env: {
 		jasmine: true,
 	},
-	plugins: [
-		'jasmine',
-	],
+	plugins: ['jasmine'],
 	rules: {
 		// ERRORS
 

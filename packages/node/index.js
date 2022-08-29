@@ -1,9 +1,18 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
-	plugins: [
-		'node',
-	],
+	env: {
+		node: true,
+	},
+	overrides: [{
+		files: [
+			'**/__mocks__/**',
+			'**/tests/**/*',
+			'**/*.test.*',
+		],
+		rules: {
+			'node/no-unpublished-import': 'off',
+		},
+	}],
+	plugins: ['node'],
 	rules: {
 		// ERRORS
 

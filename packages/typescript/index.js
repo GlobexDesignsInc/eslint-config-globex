@@ -1,21 +1,17 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
-	plugins: [
-		'@typescript-eslint',
-	],
-	settings: {
-		'import/resolver': {
-			node: {
-				extensions: ['.js', '.jsx', '.ts', '.tsx'],
-			},
-		},
-	},
 	overrides: [{
 		files: ['*.ts', '*.tsx'],
 		parser: '@typescript-eslint/parser',
 		parserOptions: {
 			sourceType: 'module',
+		},
+		plugins: ['@typescript-eslint'],
+		settings: {
+			'import/resolver': {
+				node: {
+					extensions: ['.js', '.jsx', '.ts', '.tsx'],
+				},
+			},
 		},
 		rules: {
 			// ERRORS

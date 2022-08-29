@@ -26,34 +26,15 @@ yarn add -D eslint-config-globex
 
 ## Usage
 
-> **NOTE**: `eslint-config-globex` comes with its own `eslint-globex` bin tool so that you don't need to install `eslint` as a peerDependency. All the necessary dependencies are bundled together for you.
+> **Note**
+>
+> `eslint-config-globex` comes with its own `eslint-globex` bin tool so that you don't need to install `eslint` as a peerDependency. `eslint-config-globex` tracks and manages `eslint` versions so you don't have to.
 
 Add the config to your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-	"extends": [
-		// Installs the base configuration for all JavaScript projects
-		"eslint-config-globex",
-
-		// (Optional) Additional rules for Flow static typing
-		"eslint-config-globex/rules/flowtype",
-
-		// (Optional) Additional rules for Jasmine
-		"eslint-config-globex/rules/jasmine",
-
-		// (Optional) Additional rules for Jest
-		"eslint-config-globex/rules/jest",
-
-		// (Optional) Additional rules for Next.js
-		"eslint-config-globex/rules/next",
-
-		// (Optional) Additional rules for React
-		"eslint-config-globex/rules/react",
-
-		// (Optional) Additional rules for TypeScript
-		"eslint-config-globex/rules/typescript"
-	]
+	"extends": ["eslint-config-globex"]
 }
 ```
 
@@ -67,12 +48,46 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 }
 ```
 
-### TypeScript
+## Extensions
 
-When using the `eslint-config-globex/rules/typescript` rule set, make sure to set the `parserOptions.project` config setting in your project's `.eslintrc` file:
+The following optional extensions are available
+
+- `@eslint-config-globex/flowtype`: Additional rules for Flow static typing
+- `@eslint-config-globex/jasmine`: Additional rules for Jasmine
+- `@eslint-config-globex/jest`: Additional rules for Jest
+- `@eslint-config-globex/next`: Additional rules for Next.js
+- `@eslint-config-globex/node`: Additional rules for Node.js
+- `@eslint-config-globex/react`: Additional rules for React
+- `@eslint-config-globex/typescript`: Additional rules for TypeScript
+
+You can add an extension to your `.eslintrc` file like this:
 
 ```js
-parserOptions: {
-	project: './tsconfig.json'
+module.exports = {
+	"extends": [
+		"eslint-config-globex",
+		"@eslint-config-globex/jest",
+		"@eslint-config-globex/react"
+	]
+}
+```
+
+### Usage with Prettier
+
+Unfortunately, Prettier has some opinions which are incompatible with the rules in this module and therefore cannot be used with `eslint-config-globex`.
+
+### Usage with TypeScript
+
+To use this config with TypeScript, enable the `@eslint-config-globex/typescript` rule set and make sure to set the `parserOptions.project` config setting in your project's `eslint.config.js` file:
+
+```js
+module.exports = {
+	extends: [
+		"eslint-config-globex",
+		"@eslint-config-globex/typescript",
+	],
+	parserOptions: {
+		project: './tsconfig.json'
+	}
 }
 ```

@@ -1,0 +1,30 @@
+{
+	"name": "eslint-config-globex",
+	"version": "7.0.0-alpha.3",
+	"description": "JavaScript Code Standards for Globex Designs - ESLint Shareable Config",
+	"license": "MIT",
+	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
+	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex.git"
+	},
+	"bugs": {
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
+	},
+	"main": "index.js",
+	"bin": {
+		"eslint-globex": "./bin/eslint-globex.js"
+	},
+	"scripts": {
+		"version": "npm version"
+	},
+	"dependencies": {
+		"eslint": "^8.23.0",
+		"eslint-plugin-filenames": "^1.3.2",
+		"eslint-plugin-import": "^2.26.0",
+		"eslint-plugin-json": "^3.1.0",
+		"eslint-plugin-promise": "^6.0.1",
+		"eslint-plugin-sonarjs": "^0.15.0"
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"name": "@eslint-config-globex/next",
+	"version": "7.0.0-alpha.3",
+	"description": "Adds Next.js support for eslint-config-globex",
+	"license": "MIT",
+	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
+	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex.git"
+	},
+	"bugs": {
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
+	},
+	"main": "index.js",
+	"scripts": {
+		"version": "npm version"
+	},
+	"dependencies": {
+		"@next/eslint-plugin-next": "^12.3.0"
+	},
+	"peerDependencies": {
+		"next": "*"
+	}
+}

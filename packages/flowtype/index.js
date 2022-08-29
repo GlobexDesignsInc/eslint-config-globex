@@ -1,10 +1,9 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
 	overrides: [{
 		files: [
 			'**/__mocks__/**',
-			'*.test.js',
+			'**/tests/**/*',
+			'**/*.test.js',
 		],
 		rules: {
 			'flowtype/no-types-missing-file-annotation': 'off',
@@ -13,9 +12,7 @@ module.exports = {
 			'flowtype/require-valid-file-annotation': 'off',
 		},
 	}],
-	plugins: [
-		'flowtype',
-	],
+	plugins: ['flowtype'],
 	rules: {
 		// ERRORS
 
@@ -79,7 +76,7 @@ module.exports = {
 	},
 	settings: {
 		react: {
-			flowVersion: '0.157.0',
+			flowVersion: '0.186.0',
 		},
 	},
 };
