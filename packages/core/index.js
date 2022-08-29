@@ -1,28 +1,24 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
 	env: {
 		browser: true,
 		es6: true,
-		node: true,
 	},
 	globals: {
 		__DEV__: 'writeable',
 	},
-	parser: '@babel/eslint-parser',
 	parserOptions: {
 		ecmaVersion: 'latest',
 		requireConfigFile: false,
 		sourceType: 'module',
 	},
 	plugins: [
-		'@babel',
 		'filenames',
 		'import',
 		'json',
 		'promise',
 		'sonarjs',
 	],
+	reportUnusedDisableDirectives: true,
 	rules: {
 		// ERRORS
 
@@ -30,8 +26,6 @@ module.exports = {
 		'array-bracket-spacing': ['error', 'never'],
 		'arrow-parens': ['error', 'always'],
 		'arrow-spacing': ['error', {before: true, after: true}],
-		'@babel/object-curly-spacing': ['error', 'never'],
-		'@babel/semi': ['error', 'always'],
 		'block-scoped-var': 'error',
 		'block-spacing': ['error', 'always'],
 		'brace-style': ['error', '1tbs', {allowSingleLine: true}],
@@ -196,7 +190,11 @@ module.exports = {
 		'no-unsafe-optional-chaining': 'error',
 		'no-unused-expressions': 'error',
 		'no-unused-private-class-members': 'error',
-		'no-unused-vars': ['error', {args: 'none'}],
+		'no-unused-vars': ['error', {
+			args: 'none',
+			ignoreRestSiblings: true,
+		}],
+		'no-useless-backreference': 'error',
 		'no-useless-call': 'error',
 		'no-useless-catch': 'error',
 		'no-useless-computed-key': 'error',
@@ -212,6 +210,7 @@ module.exports = {
 		'no-void': 'error',
 		'no-whitespace-before-property': 'error',
 		'no-with': 'error',
+		'object-curly-spacing': ['error', 'never'],
 		'object-shorthand': 'error',
 		'one-var-declaration-per-line': 'error',
 		'operator-assignment': ['error', 'always'],
@@ -244,6 +243,7 @@ module.exports = {
 		'require-unicode-regexp': 'error',
 		'require-yield': 'error',
 		'rest-spread-spacing': ['error', 'never'],
+		semi: ['error', 'always'],
 		'semi-spacing': ['error', {before: false, after: true}],
 		'semi-style': ['error', 'last'],
 		'sonarjs/no-all-duplicated-branches': 'error',
@@ -306,12 +306,6 @@ module.exports = {
 		'array-bracket-newline': 'off',
 		'array-element-newline': 'off',
 		'arrow-body-style': ['off', 'as-needed'],
-		'@babel/camelcase': 'off',
-		'@babel/new-cap': 'off',
-		'@babel/no-invalid-this': 'off',
-		'@babel/no-unused-expressions': 'off',
-		'@babel/quotes': 'off',
-		'@babel/valid-typeof': 'off',
 		camelcase: 'off',
 		'capitalized-comments': 'off',
 		'class-methods-use-this': 'off',
@@ -389,7 +383,6 @@ module.exports = {
 		'no-useless-return': 'off',
 		'nonblock-statement-body-position': 'off',
 		'object-curly-newline': 'off',
-		'object-curly-spacing': ['off', 'never'],
 		'object-property-newline': 'off',
 		'one-var': ['off', 'always'],
 		'padded-blocks': ['off', 'never'],
@@ -403,7 +396,6 @@ module.exports = {
 		'promise/no-nesting': 'off',
 		'promise/prefer-await-to-callbacks': 'off',
 		'promise/prefer-await-to-then': 'off',
-		semi: 'off',
 		// Doesn't play nice with koa code
 		'require-atomic-updates': 'off',
 		// Good canditate to be enabled as a replacement for default "complexity" rule

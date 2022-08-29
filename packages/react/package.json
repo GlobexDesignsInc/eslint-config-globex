@@ -1,0 +1,27 @@
+{
+	"name": "@eslint-config-globex/react",
+	"version": "7.0.0-alpha.3",
+	"description": "Adds React support for eslint-config-globex",
+	"license": "MIT",
+	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
+	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex.git"
+	},
+	"bugs": {
+		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
+	},
+	"main": "index.js",
+	"scripts": {
+		"version": "npm version"
+	},
+	"dependencies": {
+		"eslint-plugin-jsx-a11y": "^6.6.1",
+		"eslint-plugin-react": "^7.31.8",
+		"eslint-plugin-react-hooks": "^4.6.0"
+	},
+	"peerDependencies": {
+		"react": "*"
+	}
+}

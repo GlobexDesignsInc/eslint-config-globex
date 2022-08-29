@@ -1,3 +1,6 @@
+.changeset
+.commitlintrc.cjs
+.eslintrc.js
 .github
 .husky
 .yarn
@@ -5,4 +8,4 @@
 .lintstagedrc
 CONTRIBUTING.md
 logo.png
-.yarnrc.yml
+packages

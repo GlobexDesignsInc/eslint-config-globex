@@ -1,12 +1,8 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
 	env: {
 		jest: true,
 	},
-	plugins: [
-		'jest',
-	],
+	plugins: ['jest'],
 	rules: {
 		// ERRORS
 
@@ -24,7 +20,6 @@ module.exports = {
 		'jest/no-identical-title': 'error',
 		'jest/no-interpolation-in-snapshots': 'error',
 		'jest/no-jasmine-globals': 'error',
-		'jest/no-jest-import': 'error',
 		'jest/no-standalone-expect': 'error',
 		'jest/no-test-return-statement': 'error',
 		'jest/prefer-comparison-matcher': 'error',

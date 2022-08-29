@@ -1,72 +1,27 @@
 {
-	"name": "eslint-config-globex",
-	"version": "0.0.0-development",
-	"description": "JavaScript Code Standards for Globex Designs - ESLint Shareable Config",
+	"name": "@eslint-config-globex/root",
+	"version": "0.0.0",
+	"description": "Monorepo root for eslint-config-globex",
 	"license": "MIT",
-	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
-	"homepage": "https://github.com/GlobexDesignsInc/eslint-config-globex",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex.git"
-	},
-	"bugs": {
-		"url": "https://github.com/GlobexDesignsInc/eslint-config-globex/issues"
-	},
-	"main": "index.js",
-	"bin": {
-		"eslint-globex": "./bin/eslint-globex.js"
-	},
 	"scripts": {
-		"eslint": "node ./bin/eslint-globex -c index.js bin rules index.js",
+		"eslint": "node ./packages/core/bin/eslint-globex packages",
 		"postinstall": "husky install",
 		"lint": "yarn eslint && yarn packagelint",
 		"prepack": "pinst --disable",
 		"postpack": "pinst --enable",
-		"packagelint": "prettier-package-json --use-tabs --write ./package.json",
-		"semantic-release": "semantic-release",
+		"packagelint": "prettier-package-json --use-tabs --write ./package.json packages/**/package.json",
 		"test": "yarn lint"
 	},
-	"resolutions": {
-		"chalk": "4.1.2"
-	},
-	"dependencies": {
-		"@babel/core": "^7.19.0",
-		"@babel/eslint-parser": "^7.18.9",
-		"@babel/eslint-plugin": "^7.18.10",
-		"@next/eslint-plugin-next": "^12.3.0",
-		"@typescript-eslint/eslint-plugin": "^5.36.2",
-		"@typescript-eslint/parser": "^5.36.2",
-		"eslint": "^8.23.0",
-		"eslint-plugin-filenames": "^1.3.2",
-		"eslint-plugin-flowtype": "^8.0.3",
-		"eslint-plugin-import": "^2.26.0",
-		"eslint-plugin-jasmine": "^4.1.3",
-		"eslint-plugin-jest": "^27.0.4",
-		"eslint-plugin-json": "^3.1.0",
-		"eslint-plugin-jsx-a11y": "^6.6.1",
-		"eslint-plugin-node": "^11.1.0",
-		"eslint-plugin-promise": "^6.0.1",
-		"eslint-plugin-react": "^7.31.8",
-		"eslint-plugin-react-hooks": "^4.6.0",
-		"eslint-plugin-sonarjs": "^0.15.0"
-	},
+	"workspaces": [
+		"packages/*"
+	],
 	"devDependencies": {
 		"@commitlint/cli": "17.1.2",
 		"@commitlint/config-conventional": "17.1.0",
 		"husky": "8.0.1",
 		"lint-staged": "13.0.3",
 		"pinst": "3.0.0",
-		"prettier-package-json": "2.6.4",
-		"semantic-release": "19.0.5",
-		"ts-node": "10.9.1"
-	},
-	"comments": {
-		"devDependencies": {
-			"ts-node": "Needed for commitlint. See https://github.com/conventional-changelog/commitlint/issues/3347."
-		},
-		"resolutions": {
-			"chalk": "Need to lock this to ensure semantic-release works. See https://github.com/semantic-release/semantic-release/issues/2323 for more info"
-		}
+		"prettier-package-json": "2.6.4"
 	},
 	"packageManager": "yarn@3.2.3"
 }

@@ -1,11 +1,5 @@
-/* eslint-disable import/no-commonjs */
-
 module.exports = {
-	plugins: [
-		'jsx-a11y',
-		'react',
-		'react-hooks',
-	],
+	plugins: ['jsx-a11y', 'react', 'react-hooks'],
 	rules: {
 		// ERRORS
 
