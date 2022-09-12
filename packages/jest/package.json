@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/jest",
-	"version": "7.0.0-alpha.4",
+	"version": "7.0.0-alpha.5",
 	"description": "Adds Jest support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
