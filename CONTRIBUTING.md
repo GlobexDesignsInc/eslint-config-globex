@@ -12,7 +12,7 @@ yarn workspaces foreach -p run version prerelease
 
 # Add a git tag (replace `X` with appropriate versions)
 git tag vX.X.X-alpha.X
-git push --follow-tags
+git push --tags
 
 # Generate changelog
 yarn conventional-changelog --commit-path='packages' -l packages
