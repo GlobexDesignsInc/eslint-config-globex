@@ -20,8 +20,11 @@ yarn conventional-changelog --commit-path='packages' -l packages
 # Create a Github release and publish the change log therein:
 # https://github.com/GlobexDesignsInc/eslint-config-globex/releases
 
-# Publish packages to npm
-yarn workspaces foreach npm publish --tolerate-republish
+# Login to eslint-config-globex user
+npm login
+
+# Publish packages to npm (set OTP <CODE>)
+yarn workspaces foreach npm publish --tolerate-republish --access=public --otp <CODE>
 
 # Version up 
 yarn workspaces foreach -p run version prerelease

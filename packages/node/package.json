@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/node",
-	"version": "7.0.0-alpha.3",
+	"version": "7.0.0-alpha.4",
 	"description": "Adds Node.js support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
