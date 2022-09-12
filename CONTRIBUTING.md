@@ -15,7 +15,10 @@ git tag vX.X.X-alpha.X
 git push --follow-tags
 
 # Generate changelog
-yarn conventional-changelog -p conventionalcommits -k packages/core
+yarn conventional-changelog --commit-path='packages' -l packages
+
+# Create a Github release and publish the change log therein:
+# https://github.com/GlobexDesignsInc/eslint-config-globex/releases
 
 # Publish packages to npm
 yarn workspaces foreach npm publish --tolerate-republish
