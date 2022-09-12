@@ -12,6 +12,7 @@ module.exports = {
 			'flowtype/require-valid-file-annotation': 'off',
 		},
 	}],
+	parser: '@babel/eslint-parser',
 	plugins: ['flowtype'],
 	rules: {
 		// ERRORS

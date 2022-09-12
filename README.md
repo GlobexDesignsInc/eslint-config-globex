@@ -66,11 +66,16 @@ You can add an extension to your `.eslintrc` file like this:
 module.exports = {
 	"extends": [
 		"eslint-config-globex",
-		"@eslint-config-globex/jest",
-		"@eslint-config-globex/react"
+		"./node_modules/@eslint-config-globex/jest",
+		"./node_modules/@eslint-config-globex/react"
 	]
 }
 ```
+
+> **NOTE**
+> Unfortunately the `./node_modules/` prefix is needed because ESLint doesn't support
+> scoped package names in extend. See https://github.com/eslint/eslint/issues/9868
+> for more info. This problem will go away once we use the new ESlint config syntax.
 
 ### Usage with Prettier
 
@@ -84,7 +89,7 @@ To use this config with TypeScript, enable the `@eslint-config-globex/typescript
 module.exports = {
 	extends: [
 		"eslint-config-globex",
-		"@eslint-config-globex/typescript",
+		"./node_modules/@eslint-config-globex/typescript",
 	],
 	parserOptions: {
 		project: './tsconfig.json'
