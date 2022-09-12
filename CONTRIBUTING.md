@@ -11,7 +11,7 @@ Make sure you're on the `next` branch. Alpha & beta releases should only be publ
 yarn workspaces foreach -p run version prerelease
 
 # Add a git tag (replace `X` with appropriate versions)
-git tag $(node -p "require('./packages/core/package.json').version")
+git tag v$(node -p "require('./packages/core/package.json').version")
 git push origin --tags
 
 # Generate changelog
@@ -28,7 +28,7 @@ yarn workspaces foreach npm publish --tolerate-republish --access=public --otp <
 
 # Version up 
 yarn workspaces foreach -p run version prerelease
-yarn lint
+yarn test
 ```
 
 ## Publishing a new release
