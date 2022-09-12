@@ -31,7 +31,7 @@ jobs:
         repository: ${{ matrix.repos.repository }}
     
     - name: Install repo dependencies with link
-      run: cd ${{ matrix.repos.name }} && yarn link ../
+      run: yarn install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && yarn link ../eslint-config-globex --all
     
     - name: Run eslint
-      run: cd ${{ matrix.repos.name }} && yarn eslint
+      run: cd ../${{ matrix.repos.name }} && yarn eslint
