@@ -11,8 +11,8 @@ Make sure you're on the `next` branch. Alpha & beta releases should only be publ
 yarn workspaces foreach -p run version prerelease
 
 # Add a git tag (replace `X` with appropriate versions)
-git tag vX.X.X-alpha.X
-git push --tags
+git tag $(node -p "require('./packages/core/package.json').version")
+git push origin --tags
 
 # Generate changelog
 yarn conventional-changelog --commit-path='packages' -l packages
