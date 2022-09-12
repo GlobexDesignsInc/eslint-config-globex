@@ -28,6 +28,7 @@ yarn workspaces foreach npm publish --tolerate-republish --access=public --otp <
 
 # Version up 
 yarn workspaces foreach -p run version prerelease
+yarn lint
 ```
 
 ## Publishing a new release
