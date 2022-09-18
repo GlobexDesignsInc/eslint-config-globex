@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/typescript",
-	"version": "7.0.0-alpha.6",
+	"version": "7.0.0",
 	"description": "Adds TypeScript support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",

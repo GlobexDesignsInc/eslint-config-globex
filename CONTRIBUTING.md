@@ -9,8 +9,10 @@ Make sure you're on the `next` branch. Alpha & beta releases should only be publ
 ```
 # (Option) Set the version you want if the current one is not desired
 yarn workspaces foreach -p run version prerelease
+git commit -am "build: version up"
+git push
 
-# Add a git tag (replace `X` with appropriate versions)
+# Add a git tag
 git tag v$(node -p "require('./packages/core/package.json').version")
 git push origin --tags
 
@@ -34,5 +36,11 @@ yarn test
 ## Publishing a new release
 
 ```
+# (Option) Set the version you want if the current one is not desired
+yarn workspaces foreach -p run version patch
+
+# Add a git tag
+git tag v$(node -p "require('./packages/core/package.json').version")
+git push origin --tags
 
 ```
