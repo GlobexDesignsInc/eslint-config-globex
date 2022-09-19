@@ -509,7 +509,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-config-globex/next@workspace:packages/next"
   dependencies:
-    "@next/eslint-plugin-next": ^12.3.0
+    "@next/eslint-plugin-next": ^12.3.1
   peerDependencies:
     next: "*"
   languageName: unknown
@@ -678,12 +678,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "@next/eslint-plugin-next@npm:12.3.0"
+"@next/eslint-plugin-next@npm:^12.3.1":
+  version: 12.3.1
+  resolution: "@next/eslint-plugin-next@npm:12.3.1"
   dependencies:
     glob: 7.1.7
-  checksum: f08582b36ff01a776183b3c33d6d81be3a110c1c3c39c81a33aff91277ea822aa4a952d4f2271a08ce56692ca5c58c9e958aaf4e08348c10cc45a85213b208f0
+  checksum: 157b1126f016a0090b62f590d9c331c58221c4efaf3453c294a0d26e75497704617549480e9bba3ddaf278a355359133dd239c3960f684f2abe575553ec59a96
   languageName: node
   linkType: hard
 
