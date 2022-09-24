@@ -350,6 +350,7 @@ module.exports = {
 		'line-comment-position': 'off',
 		'linebreak-style': 'off',
 		'lines-around-comment': ['off', {beforeBlockComment: true, beforeLineComment: true}],
+		'logical-assignment-operators': 'off',
 		'max-classes-per-file': 'off',
 		'multiline-comment-style': 'off',
 		'multiline-ternary': 'off',
