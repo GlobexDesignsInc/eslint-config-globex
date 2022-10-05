@@ -25,5 +25,5 @@
 		"pinst": "3.0.0",
 		"prettier-package-json": "2.7.0"
 	},
-	"packageManager": "yarn@3.2.3"
+	"packageManager": "yarn@3.2.4"
 }
