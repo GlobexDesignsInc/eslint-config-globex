@@ -3,8 +3,7 @@ module.exports = {
 	rules: {
 		// ERRORS
 
-		'vitest/lower-case-title': 'error',
-		'vitest/max-nested-describe': ['error', 2],
+		'vitest/max-nested-describe': ['error', {max: 2}],
 		'vitest/no-idential-title': 'error',
 		'vitest/no-skip-test': 'error',
 
@@ -14,6 +13,7 @@ module.exports = {
 		// DISABLED
 
 		'vitest/assertion-type': 'off',
+		'vitest/lower-case-title': 'off',
 		'vitest/no-conditional-in-test': 'off',
 	},
 };
