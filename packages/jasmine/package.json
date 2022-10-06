@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/jasmine",
-	"version": "7.2.0",
+	"version": "7.2.1",
 	"description": "Adds Jasmine support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
