@@ -59,6 +59,7 @@ The following optional extensions are available
 - `@eslint-config-globex/node`: Additional rules for Node.js
 - `@eslint-config-globex/react`: Additional rules for React
 - `@eslint-config-globex/typescript`: Additional rules for TypeScript
+- `@eslint-config-globex/vitest`: Additional rules for Vitest
 
 You can add an extension to your `.eslintrc` file like this:
 
