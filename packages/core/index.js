@@ -231,6 +231,7 @@ module.exports = {
 		'promise/always-return': 'error',
 		'promise/catch-or-return': ['error', {terminationMethod: ['catch', 'finally']}],
 		'promise/no-return-wrap': 'error',
+		'promise/no-multiple-resolved': 'error',
 		'promise/no-new-statics': 'error',
 		'promise/no-promise-in-callback': 'error',
 		'promise/no-return-in-finally': 'error',
