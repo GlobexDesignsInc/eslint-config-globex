@@ -4,8 +4,8 @@ module.exports = {
 		// ERRORS
 
 		'vitest/max-nested-describe': ['error', {max: 2}],
-		'vitest/no-idential-title': 'error',
-		'vitest/no-skip-test': 'error',
+		'vitest/no-identical-title': 'error',
+		'vitest/no-skipped-tests': 'error',
 
 		// WARNINGS
 
@@ -14,6 +14,6 @@ module.exports = {
 
 		'vitest/assertion-type': 'off',
 		'vitest/lower-case-title': 'off',
-		'vitest/no-conditional-in-test': 'off',
+		'vitest/no-conditional-in-tests': 'off',
 	},
 };
