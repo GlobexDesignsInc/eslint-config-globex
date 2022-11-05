@@ -7,5 +7,6 @@
 .commitlintrc.js
 .lintstagedrc
 CONTRIBUTING.md
+lefthook.yml
 logo.png
 packages
