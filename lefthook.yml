@@ -3,7 +3,7 @@ colors: false
 commit-msg:
   commands:
     commitlint:
-      run: echo $(head -n1 $1) | yarn commitlint --edit ""
+      run: yarn commitlint --edit ""
 
 post-merge:
   commands:
