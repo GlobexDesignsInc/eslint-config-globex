@@ -20,7 +20,7 @@ pre-commit:
   commands:
     eslint:
       glob: "*.{js,jsx,ts,tsx}"
-      run: yarn eslint-globex --fix {staged_files} && git add {staged_files}
+      run: node ./packages/core/bin/eslint-globex --fix {staged_files} && git add {staged_files}
     prettier-package-json:
       glob: "package.json"
       run: yarn prettier-package-json --use-tabs --write {staged_files} && git add {staged_files}
