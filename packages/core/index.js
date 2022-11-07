@@ -78,6 +78,7 @@ module.exports = {
 		'import/no-self-import': 'error',
 		'import/no-unresolved': 'error',
 		'import/no-useless-path-segments': 'error',
+		'import/no-webpack-loader-syntax': 'error',
 		'import/prefer-default-export': 'error',
 		indent: ['error', 'tab', {SwitchCase: 1}],
 		'json/*': ['error', {allowComments: true}],
@@ -324,7 +325,7 @@ module.exports = {
 		'id-denylist': 'off',
 		'id-match': ['off', '^[a-z]+([A-Z][a-z]+)*$', {properties: false}],
 		'implicit-arrow-linebreak': 'off',
-		// Doesn't let us leave Flow `export type` at the top of the file
+		// Doesn't let us leave `export type` at the top of the file
 		'import/exports-last': 'off',
 		'import/group-exports': 'off',
 		'import/max-dependencies': 'off',
@@ -346,7 +347,6 @@ module.exports = {
 		'import/no-restricted-paths': 'off',
 		'import/no-unassigned-import': 'off',
 		'import/no-unused-modules': 'off',
-		'import/no-webpack-loader-syntax': 'off',
 		'import/order': 'off',
 		'import/unambiguous': 'off',
 		'init-declarations': 'off',
