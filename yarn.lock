@@ -562,7 +562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-config-globex/vitest@workspace:packages/vitest"
   dependencies:
-    eslint-plugin-vitest: ^0.0.11
+    eslint-plugin-vitest: ^0.0.13
   peerDependencies:
     vitest: "*"
   languageName: unknown
@@ -2035,14 +2035,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.11":
-  version: 0.0.11
-  resolution: "eslint-plugin-vitest@npm:0.0.11"
+"eslint-plugin-vitest@npm:^0.0.13":
+  version: 0.0.13
+  resolution: "eslint-plugin-vitest@npm:0.0.13"
   dependencies:
     "@typescript-eslint/utils": ^5.17.0
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: e5fba918fae8a4331253f15912704760d95ab0f08d461cf61e272efee1b0cbb184f4032a71c6173e6f1810e0bf17a1ab7127f7229e06762a42077f5a68728589
+  checksum: f73a7c24e23f8371aef2cddb8764d13ee5ac89678aebb117747da7b13e79294b75d1ae47b3e45318b4af1ebcef7e856ded3b8010511ce66937e7363e91bda577
   languageName: node
   linkType: hard
 
