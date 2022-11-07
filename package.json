@@ -17,7 +17,7 @@
 		"@commitlint/cli": "17.2.0",
 		"@commitlint/config-conventional": "17.2.0",
 		"conventional-changelog-cli": "2.2.2",
-		"lefthook": "1.1.4",
+		"lefthook": "1.2.0",
 		"prettier-package-json": "2.7.0"
 	},
 	"packageManager": "yarn@3.2.4"
