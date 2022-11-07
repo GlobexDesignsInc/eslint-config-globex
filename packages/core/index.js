@@ -93,8 +93,8 @@ module.exports = {
 		'max-params': ['error', 4],
 		'max-statements': ['error', 100],
 		'max-statements-per-line': ['error', {max: 2}],
-		'newline-per-chained-call': ['error', {ignoreChainWithDepth: 3}],
 		'new-parens': 'error',
+		'newline-per-chained-call': ['error', {ignoreChainWithDepth: 3}],
 		'no-alert': 'error',
 		'no-array-constructor': 'error',
 		'no-async-promise-executor': 'error',
@@ -245,6 +245,7 @@ module.exports = {
 		quotes: ['error', 'single', {allowTemplateLiterals: true}],
 		'quote-props': ['error', 'as-needed'],
 		radix: 'error',
+		'require-atomic-updates': 'error',
 		'require-await': 'error',
 		'require-unicode-regexp': 'error',
 		'require-yield': 'error',
@@ -347,6 +348,7 @@ module.exports = {
 		'import/no-restricted-paths': 'off',
 		'import/no-unassigned-import': 'off',
 		'import/no-unused-modules': 'off',
+		// Use `sort-imports` instead
 		'import/order': 'off',
 		'import/unambiguous': 'off',
 		'init-declarations': 'off',
@@ -400,8 +402,6 @@ module.exports = {
 		'promise/no-nesting': 'off',
 		'promise/prefer-await-to-callbacks': 'off',
 		'promise/prefer-await-to-then': 'off',
-		// Doesn't play nice with koa code
-		'require-atomic-updates': 'off',
 		// Good canditate to be enabled as a replacement for default "complexity" rule
 		'sonarjs/cognitive-complexity': 'off',
 		'sonarjs/elseif-without-else': 'off',
