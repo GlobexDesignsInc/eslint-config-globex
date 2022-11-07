@@ -9,13 +9,6 @@ module.exports = {
 			sourceType: 'module',
 		},
 		plugins: ['@typescript-eslint'],
-		settings: {
-			'import/resolver': {
-				node: {
-					extensions: ['.js', '.jsx', '.ts', '.tsx'],
-				},
-			},
-		},
 		rules: {
 			// ERRORS
 
@@ -35,21 +28,9 @@ module.exports = {
 			'@typescript-eslint/ban-tslint-comment': 'error',
 			'@typescript-eslint/ban-types': ['error', {
 				types: {
-					String: {
-						message: 'Use string instead',
-						fixWith: 'string',
-					},
 					Boolean: {
-						message: 'Use boolean instead',
 						fixWith: 'boolean',
-					},
-					Number: {
-						message: 'Use number instead',
-						fixWith: 'number',
-					},
-					Symbol: {
-						message: 'Use symbol instead',
-						fixWith: 'symbol',
+						message: 'Use boolean instead',
 					},
 					Function: {
 						message: [
@@ -59,12 +40,24 @@ module.exports = {
 							'If you are expecting the function to accept certain arguments, you should explicitly define the function shape.',
 						].join('\n'),
 					},
+					Number: {
+						fixWith: 'number',
+						message: 'Use number instead',
+					},
 					Object: {
 						message: [
 							'The `Object` type actually means "any non-nullish value", so it is marginally better than `unknown`.',
 							'- If you want a type meaning "any object", you probably want `Record<string, unknown>` instead.',
 							'- If you want a type meaning "any value", you probably want `unknown` instead.',
 						].join('\n'),
+					},
+					String: {
+						fixWith: 'string',
+						message: 'Use string instead',
+					},
+					Symbol: {
+						fixWith: 'symbol',
+						message: 'Use symbol instead',
 					},
 					// '{}': {
 					// 	message: [
@@ -80,24 +73,31 @@ module.exports = {
 			'@typescript-eslint/comma-dangle': ['error', {
 				arrays: 'always-multiline',
 				enums: 'never',
-				generics: 'never',
-				objects: 'always-multiline',
-				imports: 'always-multiline',
 				exports: 'always-multiline',
 				functions: 'never',
+				generics: 'never',
+				imports: 'always-multiline',
+				objects: 'always-multiline',
 				tuples: 'never',
 			}],
-			'@typescript-eslint/comma-spacing': ['error', {before: false, after: true}],
+			'@typescript-eslint/comma-spacing': ['error', {
+				after: true,
+				before: false,
+			}],
 			'@typescript-eslint/consistent-generic-constructors': ['error', 'constructor'],
 			'@typescript-eslint/consistent-indexed-object-style': 'error',
 			'@typescript-eslint/consistent-type-definitions': ['error', 'type'],
-			'@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
 			'@typescript-eslint/consistent-type-exports': 'error',
+			'@typescript-eslint/consistent-type-imports': ['error', {prefer: 'type-imports'}],
 			'@typescript-eslint/default-param-last': 'error',
 			'@typescript-eslint/dot-notation': 'error',
 			'@typescript-eslint/func-call-spacing': ['error', 'never'],
 			'@typescript-eslint/indent': ['error', 'tab', {SwitchCase: 1}],
-			'@typescript-eslint/keyword-spacing': ['error', {before: true, after: true, overrides: {}}],
+			'@typescript-eslint/keyword-spacing': ['error', {
+				after: true,
+				before: true,
+				overrides: {},
+			}],
 			'@typescript-eslint/lines-between-class-members': ['error', 'always'],
 			'@typescript-eslint/member-delimiter-style': ['error', {
 				multiline: {
@@ -123,8 +123,8 @@ module.exports = {
 				// Allow any naming convention for properties as they are usually
 				// names we cannot control
 				{
-					selector: 'property',
 					format: null,
+					selector: 'property',
 				},
 			],
 			'@typescript-eslint/no-array-constructor': 'error',
@@ -171,17 +171,17 @@ module.exports = {
 			'@typescript-eslint/no-unsafe-return': 'error',
 			'@typescript-eslint/no-unused-expressions': 'error',
 			'@typescript-eslint/no-unused-vars': ['error', {args: 'none'}],
-			'@typescript-eslint/no-use-before-define': [
-				'error',
-				{functions: true, classes: false},
-			],
+			'@typescript-eslint/no-use-before-define': ['error', {
+				classes: false,
+				functions: true,
+			}],
 			'@typescript-eslint/no-useless-constructor': 'error',
 			'@typescript-eslint/no-useless-empty-export': 'error',
 			'@typescript-eslint/no-var-requires': 'error',
 			'@typescript-eslint/padding-line-between-statements': [
 				'error',
-				{blankLine: 'always', prev: ['directive'], next: '*'},
-				{blankLine: 'never', prev: ['directive'], next: ['directive']},
+				{blankLine: 'always', next: '*', prev: ['directive']},
+				{blankLine: 'never', next: ['directive'], prev: ['directive']},
 			],
 			'@typescript-eslint/prefer-as-const': 'error',
 			'@typescript-eslint/prefer-enum-initializers': 'error',
@@ -216,66 +216,72 @@ module.exports = {
 
 			// DISABLED
 
-			'brace-style': 'off',
-			'comma-dangle': 'off',
-			'comma-spacing': 'off',
 			'@typescript-eslint/consistent-type-assertions': 'off',
-			'default-param-last': 'off',
-			'dot-notation': 'off',
 			'@typescript-eslint/explicit-function-return-type': 'off',
 			'@typescript-eslint/explicit-member-accessibility': 'off',
 			'@typescript-eslint/explicit-module-boundary-types': 'off',
+			'@typescript-eslint/init-declarations': 'off',
+			'@typescript-eslint/no-confusing-void-expression': 'off',
+			'@typescript-eslint/no-empty-function': 'off',
+			'@typescript-eslint/no-extra-parens': 'off',
+			'@typescript-eslint/no-floating-promises': 'off',
+			'@typescript-eslint/no-invalid-this': 'off',
+			'@typescript-eslint/no-magic-numbers': 'off',
+			'@typescript-eslint/no-restricted-imports': 'off',
+			'@typescript-eslint/no-shadow': 'off',
+			'@typescript-eslint/no-type-alias': 'off',
+			'@typescript-eslint/non-nullable-type-assertion-style': 'off',
+			'@typescript-eslint/object-curly-spacing': ['off', 'never'],
+			'@typescript-eslint/prefer-for-of': 'off',
+			'@typescript-eslint/prefer-function-type': 'off',
+			'@typescript-eslint/prefer-nullish-coalescing': 'off',
+			'@typescript-eslint/prefer-readonly-parameter-types': 'off',
+			'@typescript-eslint/strict-boolean-expressions': 'off',
+			'@typescript-eslint/typedef': 'off',
+			'brace-style': 'off',
+			'comma-dangle': 'off',
+			'comma-spacing': 'off',
+			'default-param-last': 'off',
+			'dot-notation': 'off',
 			'func-call-spacing': 'off',
 			indent: 'off',
 			'init-declarations': 'off',
-			'@typescript-eslint/init-declarations': 'off',
 			'keyword-spacing': 'off',
 			'lines-between-class-members': 'off',
 			'no-array-constructor': 'off',
-			'@typescript-eslint/no-confusing-void-expression': 'off',
 			'no-dupe-class-members': 'off',
 			'no-duplicate-imports': 'off',
 			'no-empty-function': 'off',
 			'no-extra-parens': 'off',
-			'@typescript-eslint/no-extra-parens': 'off',
-			'no-extra-semi': 'off',
-			'@typescript-eslint/no-empty-function': 'off',
-			'@typescript-eslint/no-floating-promises': 'off',
 			'no-implied-eval': 'off',
 			'no-invalid-this': 'off',
-			'@typescript-eslint/no-invalid-this': 'off',
 			'no-loop-func': 'off',
 			'no-loss-of-precision': 'off',
 			'no-magic-numbers': 'off',
-			'@typescript-eslint/no-magic-numbers': 'off',
 			'no-redeclare': 'off',
-			'@typescript-eslint/no-restricted-imports': 'off',
 			'no-restricted-imports': 'off',
+			'no-return-await': 'off',
 			'no-shadow': 'off',
-			'@typescript-eslint/no-shadow': 'off',
 			'no-throw-literal': 'off',
-			'@typescript-eslint/no-type-alias': 'off',
 			'no-unused-expressions': 'off',
 			'no-unused-vars': 'off',
 			'no-use-before-define': 'off',
 			'no-useless-constructor': 'off',
 			'object-curly-spacing': 'off',
-			'@typescript-eslint/object-curly-spacing': ['off', 'never'],
 			'padding-line-between-statements': 'off',
-			'@typescript-eslint/prefer-for-of': 'off',
-			'@typescript-eslint/prefer-function-type': 'off',
-			'@typescript-eslint/prefer-nullish-coalescing': 'off',
-			'@typescript-eslint/prefer-readonly-parameter-types': 'off',
 			quotes: 'off',
 			'require-await': 'off',
-			'no-return-await': 'off',
-			'@typescript-eslint/non-nullable-type-assertion-style': 'off',
 			semi: 'off',
 			'space-before-blocks': 'off',
 			'space-before-function-paren': 'off',
 			'space-infix-ops': 'off',
-			'@typescript-eslint/strict-boolean-expressions': 'off',
-			'@typescript-eslint/typedef': 'off',
 		},
 	}],
+	settings: {
+		'import/resolver': {
+			node: {
+				extensions: ['.js', '.jsx', '.ts', '.tsx'],
+			},
+		},
+	},
 };

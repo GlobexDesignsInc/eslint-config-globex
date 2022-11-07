@@ -4,10 +4,10 @@ module.exports = {
 		// ERRORS
 
 		'jsx-a11y/accessible-emoji': 'error',
-		'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
 		'jsx-a11y/alt-text': 'error',
 		'jsx-a11y/anchor-has-content': 'error',
 		'jsx-a11y/anchor-is-valid': 'error',
+		'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
 		'jsx-a11y/aria-props': 'error',
 		'jsx-a11y/aria-proptypes': 'error',
 		'jsx-a11y/aria-role': 'error',
@@ -117,11 +117,6 @@ module.exports = {
 		'react/require-render-return': 'error',
 		'react/self-closing-comp': ['error', {component: true, html: true}],
 		'react/sort-comp': ['error', {
-			order: [
-				'lifecycle',
-				'render',
-				'everything-else',
-			],
 			groups: {
 				lifecycle: [
 					'displayName',
@@ -159,13 +154,18 @@ module.exports = {
 					'componentWillUnmount',
 				],
 			},
+			order: [
+				'lifecycle',
+				'render',
+				'everything-else',
+			],
 		}],
 		'react/sort-prop-types': ['error', {ignoreCase: true}],
 		'react/state-in-constructor': 'error',
 		'react/style-prop-object': 'error',
 		'react/void-dom-elements-no-children': 'error',
-		'react-hooks/rules-of-hooks': 'error',
 		'react-hooks/exhaustive-deps': 'error',
+		'react-hooks/rules-of-hooks': 'error',
 
 		// WARNINGS
 

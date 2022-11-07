@@ -15,8 +15,8 @@ module.exports = {
 		'jasmine/no-pending-tests': 'error',
 		'jasmine/no-promise-without-done-fail': 'error',
 		'jasmine/no-spec-dupes': ['error', 'branch'],
-		'jasmine/no-suite-dupes': 'error',
 		'jasmine/no-suite-callback-args': 'error',
+		'jasmine/no-suite-dupes': 'error',
 		'jasmine/no-unsafe-spy': 'error',
 		'jasmine/prefer-jasmine-matcher': 'error',
 

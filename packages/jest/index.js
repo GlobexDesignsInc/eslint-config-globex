@@ -36,8 +36,8 @@ module.exports = {
 		'jest/prefer-to-have-length': 'error',
 		'jest/require-top-level-describe': 'error',
 		'jest/valid-describe-callback': 'error',
-		'jest/valid-expect-in-promise': 'error',
 		'jest/valid-expect': 'error',
+		'jest/valid-expect-in-promise': 'error',
 		'jest/valid-title': 'error',
 
 		// WARNINGS
