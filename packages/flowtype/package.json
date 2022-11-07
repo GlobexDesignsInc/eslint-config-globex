@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/flowtype",
-	"version": "7.3.1",
+	"version": "7.4.0",
 	"description": "Adds Flow support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
