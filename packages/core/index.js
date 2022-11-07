@@ -56,6 +56,7 @@ module.exports = {
 		'generator-star-spacing': ['error', {before: false, after: true}],
 		'getter-return': 'error',
 		'guard-for-in': 'error',
+		'id-length': ['off', {min: 3, max: 30, exceptions: ['i', 'x']}],
 		'import/default': 'error',
 		'import/dynamic-import-chunkname': ['error', {
 			importFunctions: ['dynamicImport'],
@@ -308,7 +309,7 @@ module.exports = {
 		// DISABLED
 
 		'array-bracket-newline': 'off',
-		'arrow-body-style': ['off', 'as-needed'],
+		'arrow-body-style': 'off',
 		camelcase: 'off',
 		'capitalized-comments': 'off',
 		'class-methods-use-this': 'off',
@@ -320,8 +321,7 @@ module.exports = {
 		'function-call-argument-newline': 'off',
 		'function-paren-newline': 'off',
 		'grouped-accessor-pairs': 'off',
-		'id-denylist': ['off', 'data', 'err', 'e', 'cb', 'callback'],
-		'id-length': ['off', {min: 3, max: 30, exceptions: ['i', 'x']}],
+		'id-denylist': 'off',
 		'id-match': ['off', '^[a-z]+([A-Z][a-z]+)*$', {properties: false}],
 		'implicit-arrow-linebreak': 'off',
 		// Doesn't let us leave Flow `export type` at the top of the file
