@@ -24,6 +24,7 @@ module.exports = {
 
 		'accessor-pairs': 'error',
 		'array-bracket-spacing': ['error', 'never'],
+		'array-element-newline': ['error', 'consistent'],
 		'arrow-parens': ['error', 'always'],
 		'arrow-spacing': ['error', {before: true, after: true}],
 		'block-scoped-var': 'error',
@@ -307,7 +308,6 @@ module.exports = {
 		// DISABLED
 
 		'array-bracket-newline': 'off',
-		'array-element-newline': 'off',
 		'arrow-body-style': ['off', 'as-needed'],
 		camelcase: 'off',
 		'capitalized-comments': 'off',
