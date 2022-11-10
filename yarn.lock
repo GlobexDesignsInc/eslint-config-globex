@@ -562,7 +562,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@eslint-config-globex/vitest@workspace:packages/vitest"
   dependencies:
-    eslint-plugin-vitest: ^0.0.13
+    eslint-plugin-vitest: ^0.0.14
   peerDependencies:
     vitest: "*"
   languageName: unknown
@@ -935,7 +935,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:5.42.1":
+"@typescript-eslint/utils@npm:5.42.1, @typescript-eslint/utils@npm:^5.42.1":
   version: 5.42.1
   resolution: "@typescript-eslint/utils@npm:5.42.1"
   dependencies:
@@ -953,7 +953,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.17.0":
+"@typescript-eslint/utils@npm:^5.10.0":
   version: 5.42.0
   resolution: "@typescript-eslint/utils@npm:5.42.0"
   dependencies:
@@ -2098,14 +2098,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-vitest@npm:^0.0.13":
-  version: 0.0.13
-  resolution: "eslint-plugin-vitest@npm:0.0.13"
+"eslint-plugin-vitest@npm:^0.0.14":
+  version: 0.0.14
+  resolution: "eslint-plugin-vitest@npm:0.0.14"
   dependencies:
-    "@typescript-eslint/utils": ^5.17.0
+    "@typescript-eslint/utils": ^5.42.1
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: f73a7c24e23f8371aef2cddb8764d13ee5ac89678aebb117747da7b13e79294b75d1ae47b3e45318b4af1ebcef7e856ded3b8010511ce66937e7363e91bda577
+  checksum: bc6351f9cff780ac066b17893d0544eb3381e4eaf325aa2bd86e2ed1be8c20c331f210e3feb9d23cbc79ac72f57c2ee529f36c0eb672c1ac004da013f97e933a
   languageName: node
   linkType: hard
 
