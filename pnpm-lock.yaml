@@ -54,7 +54,7 @@ importers:
 
   packages/jest:
     specifiers:
-      eslint-plugin-jest: ^27.1.4
+      eslint-plugin-jest: ^27.1.5
       jest: '*'
     dependencies:
       eslint-plugin-jest: 27.1.5_ghrvpufvkz2ks6pq5kljtbctq4
