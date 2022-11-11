@@ -35,7 +35,7 @@ jobs:
         repository: ${{ matrix.repos.repository }}
     
     - name: Install repo dependencies with link
-      run: pnpm install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && pnpm link ../eslint-config-globex/packages/core && pnpm link ../eslint-config-globex/packages/next && pnpm link ../eslint-config-globex/packages/react && pnpm link ../eslint-config-globex/packages/typescript
+      run: yarn install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && yarn link ../eslint-config-globex --all
     
     - name: Run eslint
       run: cd ../${{ matrix.repos.name }} && pnpm eslint
