@@ -13,8 +13,6 @@ module.exports = {
 
 		// DISABLED
 
-		'vitest/assertion-type': 'off',
 		'vitest/lower-case-title': 'off',
-		'vitest/no-conditional-in-tests': 'off',
 	},
 };
