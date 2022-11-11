@@ -62,7 +62,7 @@ importers:
 
   packages/next:
     specifiers:
-      '@next/eslint-plugin-next': ^13.0.2
+      '@next/eslint-plugin-next': ^13.0.3
       next: '*'
     dependencies:
       '@next/eslint-plugin-next': 13.0.3
