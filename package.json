@@ -6,19 +6,15 @@
 	"license": "MIT",
 	"scripts": {
 		"eslint": "node ./packages/core/bin/eslint-globex packages",
-		"lint": "yarn eslint && yarn packagelint",
+		"lint": "pnpm eslint && pnpm packagelint",
 		"packagelint": "prettier-package-json --use-tabs --write ./package.json packages/**/package.json",
-		"test": "yarn lint"
+		"test": "pnpm lint"
 	},
-	"workspaces": [
-		"packages/*"
-	],
 	"devDependencies": {
 		"@commitlint/cli": "17.2.0",
 		"@commitlint/config-conventional": "17.2.0",
 		"conventional-changelog-cli": "2.2.2",
 		"lefthook": "1.2.0",
 		"prettier-package-json": "2.7.0"
-	},
-	"packageManager": "yarn@3.2.4"
+	}
 }

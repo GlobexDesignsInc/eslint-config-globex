@@ -3,17 +3,17 @@ colors: false
 commit-msg:
   commands:
     commitlint:
-      run: yarn commitlint --edit ""
+      run: pnpm commitlint --edit ""
 
 post-merge:
   commands:
     install:
-      run: yarn install --frozen-lockfile
+      run: pnpm install
 
 post-rebase:
   commands:
     install:
-      run: yarn install
+      run: pnpm install
 
 pre-commit:
   parallel: true
@@ -23,4 +23,4 @@ pre-commit:
       run: node ./packages/core/bin/eslint-globex --fix {staged_files} && git add {staged_files}
     prettier-package-json:
       glob: "package.json"
-      run: yarn prettier-package-json --use-tabs --write {staged_files} && git add {staged_files}
+      run: pnpm prettier-package-json --use-tabs --write {staged_files} && git add {staged_files}

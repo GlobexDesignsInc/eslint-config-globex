@@ -22,6 +22,11 @@ npm install -D eslint-config-globex
 
 # With yarn
 yarn add -D eslint-config-globex
+
+# or
+
+# With pnpm
+pnpm add -D eslint-config-globex
 ```
 
 ## Usage

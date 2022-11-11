@@ -8,7 +8,7 @@ Make sure you're on the `next` branch. Alpha & beta releases should only be publ
 
 ```
 # (Optional) Set the version you want if the current one is not desired
-yarn workspaces foreach -p run version prerelease
+pnpm -r --filter=./packages/** version prerelease
 git commit -am "chore(build): version up"
 git push
 
@@ -17,7 +17,7 @@ git tag v$(node -p "require('./packages/core/package.json').version")
 git push origin --tags
 
 # Generate changelog
-yarn conventional-changelog --commit-path='packages' -l packages
+pnpm conventional-changelog --commit-path='packages' -l packages
 
 # Create a Github release and publish the change log therein:
 # https://github.com/GlobexDesignsInc/eslint-config-globex/releases
@@ -26,18 +26,18 @@ yarn conventional-changelog --commit-path='packages' -l packages
 npm login
 
 # Publish packages to npm (set OTP <CODE>)
-yarn workspaces foreach npm publish --tolerate-republish --access=public --otp <CODE>
+pnpm -r publish --access public --otp <CODE>
 
 # Version up 
-yarn workspaces foreach -p run version prerelease
-yarn test
+pnpm -r --filter=./packages/** version prerelease
+pnpm test
 ```
 
 ## Publishing a new release
 
 ```
 # (Optional) Set the version you want if the current one is not desired
-yarn workspaces foreach -p run version patch
+pnpm -r --filter=./packages/** version patch
 git commit -am "build: version up"
 git push
 
@@ -46,7 +46,7 @@ git tag v$(node -p "require('./packages/core/package.json').version")
 git push origin --tags
 
 # Generate changelog
-yarn conventional-changelog --commit-path='packages' -l packages
+pnpm conventional-changelog --commit-path='packages' -l packages
 
 # Create a Github release and publish the change log therein:
 # https://github.com/GlobexDesignsInc/eslint-config-globex/releases
@@ -55,11 +55,11 @@ yarn conventional-changelog --commit-path='packages' -l packages
 npm login
 
 # Publish packages to npm (set OTP <CODE>)
-yarn workspaces foreach npm publish --tolerate-republish --access=public --otp <CODE>
+pnpm -r publish --access public --otp <CODE>
 
 # Version up 
-yarn workspaces foreach -p run version patch
-yarn test
+pnpm -r --filter=./packages/** version patch
+pnpm test
 git commit -am "chore(build): version up"
 git push
 ```

@@ -3,10 +3,11 @@
 .eslintrc.js
 .github
 .husky
-.yarn
 .commitlintrc.js
 .lintstagedrc
 CONTRIBUTING.md
 lefthook.yml
 logo.png
 packages
+pnpm-lock.yaml
+pnpm-workspace.yaml
