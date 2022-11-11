@@ -1,3 +1,4 @@
+
 name: Test Against Repos
 
 on: [push, pull_request]
@@ -34,8 +35,10 @@ jobs:
         path: ${{ matrix.repos.name }}
         repository: ${{ matrix.repos.repository }}
     
+    # Disabled because I don't know how to get this to work with pnpm without
+    # https://github.com/pnpm/pnpm/issues/3026
     - name: Install repo dependencies with link
-      run: yarn install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && yarn link ../eslint-config-globex --all
+      run: pnpm install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && pnpm link ../eslint-config-globex
     
     - name: Run eslint
       run: cd ../${{ matrix.repos.name }} && pnpm eslint
