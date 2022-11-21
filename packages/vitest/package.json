@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/vitest",
-	"version": "7.5.1",
+	"version": "7.5.2",
 	"description": "Adds Vitest support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
