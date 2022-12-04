@@ -29,6 +29,16 @@ yarn add -D eslint-config-globex
 pnpm add -D eslint-config-globex
 ```
 
+## Note for pnpm users
+
+If you are using pnpm, it's recommended that you add the following to your `.npmrc` file to ensure code editors like VS Code can find the correct ESLint executuable:
+
+```sh
+
+```
+public-hoist-pattern[]=eslint
+```
+
 ## Usage
 
 > **Note**
