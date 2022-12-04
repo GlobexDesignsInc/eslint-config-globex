@@ -36,7 +36,7 @@ If you are using pnpm, it's recommended that you add the following to your `.npm
 ```sh
 
 ```
-public-hoist-pattern[]=eslint
+public-hoist-pattern[]=*eslint*
 ```
 
 ## Usage
