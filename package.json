@@ -14,7 +14,7 @@
 		"@commitlint/cli": "17.3.0",
 		"@commitlint/config-conventional": "17.3.0",
 		"conventional-changelog-cli": "2.2.2",
-		"lefthook": "1.2.4",
+		"lefthook": "1.2.5",
 		"prettier-package-json": "2.7.0"
 	}
 }
