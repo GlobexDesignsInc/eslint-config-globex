@@ -50,9 +50,9 @@ importers:
 
   packages/jest:
     specifiers:
-      eslint-plugin-jest: ^27.1.6
+      eslint-plugin-jest: ^27.1.7
     dependencies:
-      eslint-plugin-jest: 27.1.6
+      eslint-plugin-jest: 27.1.7
 
   packages/next:
     specifiers:
@@ -1610,8 +1610,8 @@ packages:
     engines: {node: '>=8', npm: '>=6'}
     dev: false
 
-  /eslint-plugin-jest/27.1.6:
-    resolution: {integrity: sha512-XA7RFLSrlQF9IGtAmhddkUkBuICCTuryfOTfCSWcZHiHb69OilIH05oozH2XA6CEOtztnOd0vgXyvxZodkxGjg==}
+  /eslint-plugin-jest/27.1.7:
+    resolution: {integrity: sha512-0QVzf+og4YI1Qr3UoprkqqhezAZjFffdi62b0IurkCXMqPtRW84/UT4CKsYT80h/D82LA9avjO/80Ou1LdgbaQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
       '@typescript-eslint/eslint-plugin': ^5.0.0
@@ -1623,7 +1623,7 @@ packages:
       jest:
         optional: true
     dependencies:
-      '@typescript-eslint/utils': 5.45.0
+      '@typescript-eslint/utils': 5.46.1
     transitivePeerDependencies:
       - supports-color
       - typescript
