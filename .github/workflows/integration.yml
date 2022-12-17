@@ -27,7 +27,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: pnpm install --no-frozen-lockfile
+      run: pnpm i --frozen-lockfile
     
     - name: Check out repo
       uses: actions/checkout@v3
@@ -35,10 +35,21 @@ jobs:
         path: ${{ matrix.repos.name }}
         repository: ${{ matrix.repos.repository }}
     
-    # Disabled because I don't know how to get this to work with pnpm without
-    # https://github.com/pnpm/pnpm/issues/3026
-    - name: Install repo dependencies with link
-      run: pnpm install && mv ${{ matrix.repos.name }} ../ && cd ../${{ matrix.repos.name }} && pnpm link ../eslint-config-globex
+    - name: Install repo
+      run: |
+        # Can't install into cwd otherwise pnpm doesn't create node_modules
+        mv ${{ matrix.repos.name }} ../
+        cd ../${{ matrix.repos.name }}
+        pnpm i --frozen-lockfile
+
+        # Manually symlink relevant node_modules to repo until
+        # https://github.com/pnpm/pnpm/issues/3026 is resolved
+        cd node_modules
+        # ln -sf doesn't work, so we have to delete first
+        rm -rf @eslint-config-globex
+        rm -rf eslint-config-globex
+        ln -s ../../eslint-config-globex/packages @eslint-config-globex
+        ln -s ../../eslint-config-globex/packages/core eslint-config-globex
     
     - name: Run eslint
       run: cd ../${{ matrix.repos.name }} && pnpm eslint
