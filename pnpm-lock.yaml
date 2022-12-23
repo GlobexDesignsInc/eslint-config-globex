@@ -8,13 +8,13 @@ importers:
       '@commitlint/config-conventional': 17.3.0
       conventional-changelog-cli: 2.2.2
       lefthook: 1.2.6
-      prettier-package-json: 2.7.0
+      prettier-package-json: 2.8.0
     devDependencies:
       '@commitlint/cli': 17.3.0
       '@commitlint/config-conventional': 17.3.0
       conventional-changelog-cli: 2.2.2
       lefthook: 1.2.6
-      prettier-package-json: 2.7.0
+      prettier-package-json: 2.8.0
 
   packages/core:
     specifiers:
@@ -1104,7 +1104,7 @@ packages:
     dev: true
 
   /concat-map/0.0.1:
-    resolution: {integrity: sha1-2Klr13/Wjfd5OnMDajug1UBdR3s=}
+    resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
 
   /conventional-changelog-angular/5.0.13:
     resolution: {integrity: sha512-i/gipMxs7s8L/QeuavPF2hLnJgH6pEZAttySB6aiQLWcX3puWDL3ACVmvBhJGxnAy52Qc15ua26BufY6KpmrVA==}
@@ -3030,8 +3030,8 @@ packages:
     engines: {node: '>= 0.8.0'}
     dev: false
 
-  /prettier-package-json/2.7.0:
-    resolution: {integrity: sha512-51I3/fYpBTLDXQDQK7+dfNlJzh5wdKhK8QteSZTZMppQd6aGpr1wqpwlKKZF1KdWA+91rwfpHUBrKwd2PXdXag==}
+  /prettier-package-json/2.8.0:
+    resolution: {integrity: sha512-WxtodH/wWavfw3MR7yK/GrS4pASEQ+iSTkdtSxPJWvqzG55ir5nvbLt9rw5AOiEcqqPCRM92WCtR1rk3TG3JSQ==}
     hasBin: true
     dependencies:
       '@types/parse-author': 2.0.1
