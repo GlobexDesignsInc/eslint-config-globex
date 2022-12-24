@@ -56,9 +56,9 @@ importers:
 
   packages/next:
     specifiers:
-      '@next/eslint-plugin-next': ^13.1.0
+      '@next/eslint-plugin-next': ^13.1.1
     dependencies:
-      '@next/eslint-plugin-next': 13.1.0
+      '@next/eslint-plugin-next': 13.1.1
 
   packages/node:
     specifiers:
@@ -571,8 +571,8 @@ packages:
       '@jridgewell/resolve-uri': 3.1.0
       '@jridgewell/sourcemap-codec': 1.4.14
 
-  /@next/eslint-plugin-next/13.1.0:
-    resolution: {integrity: sha512-LGh0iqcEwxs0HmEK96cXXuhofcOGSUGl8Zms279JW8Zq/6GJkXo87gtRpfJrwD+a77nEIdRaORPM91Us3xW0Qw==}
+  /@next/eslint-plugin-next/13.1.1:
+    resolution: {integrity: sha512-SBrOFS8PC3nQ5aeZmawJkjKkWjwK9RoxvBSv/86nZp0ubdoVQoko8r8htALd9ufp16NhacCdqhu9bzZLDWtALQ==}
     dependencies:
       glob: 7.1.7
     dev: false
