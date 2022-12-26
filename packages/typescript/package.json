@@ -17,8 +17,8 @@
 		"version": "npm version"
 	},
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^5.47.0",
-		"@typescript-eslint/parser": "^5.47.0"
+		"@typescript-eslint/eslint-plugin": "^5.47.1",
+		"@typescript-eslint/parser": "^5.47.1"
 	},
 	"peerDependencies": {
 		"typescript": "*"
