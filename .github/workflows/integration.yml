@@ -27,7 +27,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: pnpm i --no-frozen-lockfile
+      run: pnpm i
     
     - name: Check out repo
       uses: actions/checkout@v3
@@ -40,7 +40,7 @@ jobs:
         # Can't install into cwd otherwise pnpm doesn't create node_modules
         mv ${{ matrix.repos.name }} ../
         cd ../${{ matrix.repos.name }}
-        pnpm i --frozen-lockfile
+        pnpm i
 
         # Manually symlink relevant node_modules to repo until
         # https://github.com/pnpm/pnpm/issues/3026 is resolved
