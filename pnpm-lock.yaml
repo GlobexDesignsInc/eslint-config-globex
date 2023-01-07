@@ -86,9 +86,9 @@ importers:
 
   packages/vitest:
     specifiers:
-      eslint-plugin-vitest: ^0.0.21
+      eslint-plugin-vitest: ^0.0.23
     dependencies:
-      eslint-plugin-vitest: 0.0.21
+      eslint-plugin-vitest: 0.0.23
 
 packages:
 
@@ -1675,8 +1675,8 @@ packages:
       eslint: 8.31.0
     dev: false
 
-  /eslint-plugin-vitest/0.0.21:
-    resolution: {integrity: sha512-eer/eS0T9MW8X9CKHg6M9URKgSEOJ8I24CKQlz1WhD68Hz2Uuwepb61OHZ+33Fcuzp4YXl/qqd7XSSq+p8BJAw==}
+  /eslint-plugin-vitest/0.0.23:
+    resolution: {integrity: sha512-Ew1iyV6sZG8unmLXuNMUnDvsAx09DKQrrSDXWb2BVHPijmmRGLH5NToXf5DzmZlJ39E6/UAQneKXEs3EZ3oYjA==}
     engines: {node: 14.x || >= 16}
     peerDependencies:
       eslint: '>=8.0.0'
