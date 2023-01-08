@@ -65,7 +65,7 @@ Enable via `package.json` scripts with the custom `eslint-globex` bin:
 
 The following optional extensions are available
 
-- `@eslint-config-globex/flowtype`: Additional rules for Flow static typing
+- `@eslint-config-globex/flowtype`: Additional rules for Flow static typing (DEPRECATED)
 - `@eslint-config-globex/jasmine`: Additional rules for Jasmine
 - `@eslint-config-globex/jest`: Additional rules for Jest
 - `@eslint-config-globex/next`: Additional rules for Next.js
