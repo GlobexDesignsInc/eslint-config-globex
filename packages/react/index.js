@@ -3,7 +3,6 @@ module.exports = {
 	rules: {
 		// ERRORS
 
-		'jsx-a11y/accessible-emoji': 'error',
 		'jsx-a11y/alt-text': 'error',
 		'jsx-a11y/anchor-ambiguous-text': 'error',
 		'jsx-a11y/anchor-has-content': 'error',
