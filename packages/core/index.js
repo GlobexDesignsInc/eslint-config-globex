@@ -57,6 +57,7 @@ module.exports = {
 		'getter-return': 'error',
 		'guard-for-in': 'error',
 		'id-length': ['off', {exceptions: ['i', 'x'], max: 30, min: 3}],
+		'import/consistent-type-specifier-style': ['error', 'prefer-top-level'],
 		'import/default': 'error',
 		'import/dynamic-import-chunkname': ['error', {
 			importFunctions: ['dynamicImport'],
