@@ -5,6 +5,7 @@ module.exports = {
 
 		'jsx-a11y/accessible-emoji': 'error',
 		'jsx-a11y/alt-text': 'error',
+		'jsx-a11y/anchor-ambiguous-text': 'error',
 		'jsx-a11y/anchor-has-content': 'error',
 		'jsx-a11y/anchor-is-valid': 'error',
 		'jsx-a11y/aria-activedescendant-has-tabindex': 'error',
