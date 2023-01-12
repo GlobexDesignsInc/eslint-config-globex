@@ -47,9 +47,51 @@ jobs:
         cd node_modules
         # ln -sf doesn't work, so we have to delete first
         rm -rf @eslint-config-globex
-        rm -rf eslint-config-globex
         ln -s ../../eslint-config-globex/packages @eslint-config-globex
+
+        rm -rf eslint-config-globex
         ln -s ../../eslint-config-globex/packages/core eslint-config-globex
+
+        rm -rf @eslint
+        ln -s ../../eslint-config-globex/node_modules/@eslint @eslint
+
+        rm -rf eslint
+        ln -s ../../eslint-config-globex/node_modules/eslint eslint
+
+        rm -rf eslint-plugin-filenames
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-filenames eslint-plugin-filenames
+
+        rm -rf eslint-plugin-import
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-import eslint-plugin-import
+
+        rm -rf eslint-plugin-json
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-json eslint-plugin-json
+
+        rm -rf eslint-plugin-jsx-a11y
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-jsx-a11y eslint-plugin-jsx-a11y
+
+        rm -rf eslint-plugin-promise
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-promise eslint-plugin-promise
+        
+        rm -rf eslint-plugin-react
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-react eslint-plugin-react
+
+        rm -rf eslint-plugin-react-hooks
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-react-hooks eslint-plugin-react-hooks
+
+        rm -rf eslint-plugin-sonarjs
+        ln -s ../../eslint-config-globex/node_modules/eslint-plugin-sonarjs eslint-plugin-sonarjs
+
+        rm -rf eslint-scope
+        ln -s ../../eslint-config-globex/node_modules/eslint-scope eslint-scope
+
+        rm -rf eslint-utils
+        ln -s ../../eslint-config-globex/node_modules/eslint-utils eslint-utils
+
+        rm -rf eslint-visitor-keys
+        ln -s ../../eslint-config-globex/node_modules/eslint-visitor-keys eslint-visitor-keys
+
+        
     
     - name: Run eslint
       run: cd ../${{ matrix.repos.name }} && pnpm eslint
