@@ -349,6 +349,8 @@ module.exports = {
 		// it's wasteful to run it
 		'import/no-deprecated': 'off',
 		'import/no-dynamic-require': 'off',
+		// Disabled until https://github.com/import-js/eslint-plugin-import/issues/2666 is fixed
+		'import/no-empty-named-blocks': 'off',
 		'import/no-extraneous-dependencies': 'off',
 		'import/no-internal-modules': 'off',
 		'import/no-named-export': 'off',
