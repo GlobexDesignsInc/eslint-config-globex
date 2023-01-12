@@ -1,6 +1,6 @@
 {
 	"name": "@eslint-config-globex/next",
-	"version": "7.6.0",
+	"version": "7.6.1",
 	"description": "Adds Next.js support for eslint-config-globex",
 	"license": "MIT",
 	"author": "Globex Designs, Inc. <info@globexdesigns.com>",
