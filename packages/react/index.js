@@ -170,6 +170,7 @@ module.exports = {
 		// WARNINGS
 
 		'jsx-a11y/click-events-have-key-events': 'warn',
+		'jsx-a11y/prefer-tag-over-role': 'warn',
 		'react/jsx-handler-names': ['warn', {
 			eventHandlerPrefix: '_handle',
 			eventHandlerPropPrefix: 'on',
