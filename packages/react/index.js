@@ -63,7 +63,6 @@ module.exports = {
 		'react/jsx-pascal-case': 'error',
 		'react/jsx-props-no-multi-spaces': 'error',
 		'react/jsx-props-no-spreading': 'error',
-		'react/jsx-sort-default-props': ['error', {ignoreCase: true}],
 		'react/jsx-sort-props': 'error',
 		'react/jsx-tag-spacing': ['error', {
 			afterOpening: 'never',
@@ -159,6 +158,7 @@ module.exports = {
 				'everything-else',
 			],
 		}],
+		'react/sort-default-props': ['error', {ignoreCase: true}],
 		'react/sort-prop-types': ['error', {ignoreCase: true}],
 		'react/state-in-constructor': 'error',
 		'react/style-prop-object': 'error',
