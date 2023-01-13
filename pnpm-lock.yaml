@@ -20,14 +20,14 @@ importers:
     specifiers:
       eslint: ^8.31.0
       eslint-plugin-filenames: ^1.3.2
-      eslint-plugin-import: ^2.27.2
+      eslint-plugin-import: ^2.27.4
       eslint-plugin-json: ^3.1.0
       eslint-plugin-promise: ^6.1.1
       eslint-plugin-sonarjs: ^0.18.0
     dependencies:
       eslint: 8.31.0
       eslint-plugin-filenames: 1.3.2_eslint@8.31.0
-      eslint-plugin-import: 2.27.2_eslint@8.31.0
+      eslint-plugin-import: 2.27.4_eslint@8.31.0
       eslint-plugin-json: 3.1.0
       eslint-plugin-promise: 6.1.1_eslint@8.31.0
       eslint-plugin-sonarjs: 0.18.0_eslint@8.31.0
@@ -2643,8 +2643,8 @@ packages:
       string-natural-compare: 3.0.1
     dev: false
 
-  /eslint-plugin-import/2.27.2_eslint@8.31.0:
-    resolution: {integrity: sha512-/S1QaM52PzKy1C4c5Sw7hB6glROSUpMZ8RVREVC4se7z4AlyDxv0kU7uWkHc8aIVNb19oz86z7c6vdtuKUwLvw==}
+  /eslint-plugin-import/2.27.4_eslint@8.31.0:
+    resolution: {integrity: sha512-Z1jVt1EGKia1X9CnBCkpAOhWy8FgQ7OmJ/IblEkT82yrFU/xJaxwujaTzLWqigewwynRQ9mmHfX9MtAfhxm0sA==}
     engines: {node: '>=4'}
     peerDependencies:
       '@typescript-eslint/parser': '*'
@@ -2667,6 +2667,7 @@ packages:
       minimatch: 3.1.2
       object.values: 1.1.6
       resolve: 1.22.1
+      semver: 6.3.0
       tsconfig-paths: 3.14.1
     transitivePeerDependencies:
       - eslint-import-resolver-typescript
