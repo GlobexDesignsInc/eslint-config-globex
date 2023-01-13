@@ -3,6 +3,7 @@ module.exports = {
 	rules: {
 		// ERRORS
 
+		'vitest/consistent-test-it': ['error', {fn: 'it'}],
 		'vitest/expect-expect': 'error',
 		'vitest/max-nested-describe': ['error', {max: 2}],
 		'vitest/no-conditional-tests': 'error',
