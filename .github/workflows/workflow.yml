@@ -18,7 +18,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: pnpm i
+      run: pnpm i --no-frozen-lockfile
     
     - name: Test
       run: pnpm test
@@ -40,7 +40,7 @@ jobs:
         node-version: '18'
 
     - name: Install dependencies
-      run: pnpm i
+      run: pnpm i --no-frozen-lockfile
 
     - name: Release
       env:
