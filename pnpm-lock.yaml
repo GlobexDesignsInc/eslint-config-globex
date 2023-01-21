@@ -90,9 +90,9 @@ importers:
 
   packages/vitest:
     specifiers:
-      eslint-plugin-vitest: ^0.0.29
+      eslint-plugin-vitest: ^0.0.30
     dependencies:
-      eslint-plugin-vitest: 0.0.29
+      eslint-plugin-vitest: 0.0.30
 
 packages:
 
@@ -2159,13 +2159,13 @@ packages:
       eslint: 8.32.0
     dev: false
 
-  /eslint-plugin-vitest/0.0.29:
-    resolution: {integrity: sha512-64Ws92lLeD2bSujYqShUK3vVyR9AAut1aFMO8YyUMRHuxJb8qonYxmB+dQhy1A1CctWRr7uEpM9fWLOd6+DBhw==}
+  /eslint-plugin-vitest/0.0.30:
+    resolution: {integrity: sha512-nJ7UvxZhucbZxTXzeK1Duy/HFz0cKyO+fnYJ/0ldNzWy7z2cnao5dqAj8AO1/nJlB6M3/8hP+EgVYpEsTfs6FA==}
     engines: {node: 14.x || >= 16}
     peerDependencies:
       eslint: '>=8.0.0'
     dependencies:
-      '@typescript-eslint/utils': 5.48.1
+      '@typescript-eslint/utils': 5.48.2
     transitivePeerDependencies:
       - supports-color
       - typescript
