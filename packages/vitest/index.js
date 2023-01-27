@@ -17,5 +17,6 @@ module.exports = {
 		// DISABLED
 
 		'vitest/prefer-lowercase-title': 'off',
+		'vitest/prefer-to-be': 'off',
 	},
 };
