@@ -170,7 +170,10 @@ module.exports = {
 			'@typescript-eslint/no-unsafe-member-access': 'error',
 			'@typescript-eslint/no-unsafe-return': 'error',
 			'@typescript-eslint/no-unused-expressions': 'error',
-			'@typescript-eslint/no-unused-vars': ['error', {args: 'none'}],
+			'@typescript-eslint/no-unused-vars': ['error', {
+				args: 'none',
+				ignoreRestSiblings: true,
+			}],
 			'@typescript-eslint/no-use-before-define': ['error', {
 				classes: false,
 				functions: true,
