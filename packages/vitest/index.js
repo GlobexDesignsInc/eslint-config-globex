@@ -16,6 +16,7 @@ module.exports = {
 
 		// DISABLED
 
+		'vitest/no-hooks': 'off',
 		'vitest/prefer-lowercase-title': 'off',
 		'vitest/prefer-to-be': 'off',
 	},
