@@ -1,10 +1,7 @@
-.changeset
 .commitlintrc.cjs
 .eslintrc.js
 .github
-.husky
 .commitlintrc.js
-.lintstagedrc
 CONTRIBUTING.md
 lefthook.yml
 logo.png
