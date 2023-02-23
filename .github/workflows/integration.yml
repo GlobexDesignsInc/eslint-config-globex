@@ -91,7 +91,8 @@ jobs:
         rm -rf eslint-visitor-keys
         ln -s ../../eslint-config-globex/node_modules/eslint-visitor-keys eslint-visitor-keys
 
-        
+        rm -rf @typescript-eslint
+        ln -s ../../eslint-config-globex/node_modules/@typescript-eslint @typescript-eslint
     
     - name: Run eslint
       run: cd ../${{ matrix.repos.name }} && pnpm eslint
