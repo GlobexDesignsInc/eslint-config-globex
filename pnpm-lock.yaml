@@ -60,9 +60,9 @@ importers:
 
   packages/next:
     specifiers:
-      '@next/eslint-plugin-next': ^13.2.2
+      '@next/eslint-plugin-next': ^13.2.3
     dependencies:
-      '@next/eslint-plugin-next': 13.2.2
+      '@next/eslint-plugin-next': 13.2.3
 
   packages/node:
     specifiers:
@@ -588,8 +588,8 @@ packages:
       '@jridgewell/sourcemap-codec': 1.4.14
     dev: true
 
-  /@next/eslint-plugin-next/13.2.2:
-    resolution: {integrity: sha512-Kp4ThmQ4f5AybCB0RgxOWmKmAQmTj7/K9BT+ZzgHRJ25h3klO+MRSKC8yqiDcgl3qNVIjKwZi8D/thQGE7o3Mg==}
+  /@next/eslint-plugin-next/13.2.3:
+    resolution: {integrity: sha512-QmMPItnU7VeojI1KnuwL9SLFWEwmaNHNlnOGpoTwdLoSiP9sc8KYiAHWEc4/44L+cAdCxcZYvn7frcRNP5l84Q==}
     dependencies:
       glob: 7.1.7
     dev: false
