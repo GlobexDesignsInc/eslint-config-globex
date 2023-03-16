@@ -225,6 +225,7 @@ module.exports = {
 			'@typescript-eslint/explicit-member-accessibility': 'off',
 			'@typescript-eslint/explicit-module-boundary-types': 'off',
 			'@typescript-eslint/init-declarations': 'off',
+			'@typescript-eslint/lines-around-comment': 'off',
 			'@typescript-eslint/no-confusing-void-expression': 'off',
 			'@typescript-eslint/no-empty-function': 'off',
 			'@typescript-eslint/no-extra-parens': 'off',
