@@ -83,10 +83,10 @@ importers:
   packages/typescript:
     specifiers:
       '@typescript-eslint/eslint-plugin': ^5.56.0
-      '@typescript-eslint/parser': ^5.55.0
+      '@typescript-eslint/parser': ^5.56.0
     dependencies:
-      '@typescript-eslint/eslint-plugin': 5.56.0_xfvdqyopd6lx2ukydhbamzgsxm
-      '@typescript-eslint/parser': 5.55.0
+      '@typescript-eslint/eslint-plugin': 5.56.0_6pbktzf24qc5a6dtgnl76m6aru
+      '@typescript-eslint/parser': 5.56.0
 
   packages/vitest:
     specifiers:
@@ -930,7 +930,7 @@ packages:
     resolution: {integrity: sha512-21cFJr9z3g5dW8B0CVI9g2O9beqaThGQ6ZFBqHfwhzLDKUxaqTIy3vnfah/UPkfOiF2pLq+tGz+W8RyCskuslw==}
     dev: false
 
-  /@typescript-eslint/eslint-plugin/5.56.0_xfvdqyopd6lx2ukydhbamzgsxm:
+  /@typescript-eslint/eslint-plugin/5.56.0_6pbktzf24qc5a6dtgnl76m6aru:
     resolution: {integrity: sha512-ZNW37Ccl3oMZkzxrYDUX4o7cnuPgU+YrcaYXzsRtLB16I1FR5SHMqga3zGsaSliZADCWo2v8qHWqAYIj8nWCCg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -942,7 +942,7 @@ packages:
         optional: true
     dependencies:
       '@eslint-community/regexpp': 4.4.0
-      '@typescript-eslint/parser': 5.55.0
+      '@typescript-eslint/parser': 5.56.0
       '@typescript-eslint/scope-manager': 5.56.0
       '@typescript-eslint/type-utils': 5.56.0
       '@typescript-eslint/utils': 5.56.0
@@ -956,8 +956,8 @@ packages:
       - supports-color
     dev: false
 
-  /@typescript-eslint/parser/5.55.0:
-    resolution: {integrity: sha512-ppvmeF7hvdhUUZWSd2EEWfzcFkjJzgNQzVST22nzg958CR+sphy8A6K7LXQZd6V75m1VKjp+J4g/PCEfSCmzhw==}
+  /@typescript-eslint/parser/5.56.0:
+    resolution: {integrity: sha512-sn1OZmBxUsgxMmR8a8U5QM/Wl+tyqlH//jTqCg8daTAmhAk26L2PFhcqPLlYBhYUJMZJK276qLXlHN3a83o2cg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || ^8.0.0
@@ -966,9 +966,9 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@typescript-eslint/scope-manager': 5.55.0
-      '@typescript-eslint/types': 5.55.0
-      '@typescript-eslint/typescript-estree': 5.55.0
+      '@typescript-eslint/scope-manager': 5.56.0
+      '@typescript-eslint/types': 5.56.0
+      '@typescript-eslint/typescript-estree': 5.56.0
       debug: 4.3.4
     transitivePeerDependencies:
       - supports-color
