@@ -17,7 +17,7 @@
 		"version": "npm version"
 	},
 	"dependencies": {
-		"eslint-plugin-vitest": "^0.1.4"
+		"eslint-plugin-vitest": "^0.1.5"
 	},
 	"peerDependencies": {
 		"vitest": "*"
