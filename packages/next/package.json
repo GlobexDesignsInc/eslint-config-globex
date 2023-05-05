@@ -17,7 +17,7 @@
 		"version": "npm version"
 	},
 	"dependencies": {
-		"@next/eslint-plugin-next": "^13.4.0"
+		"@next/eslint-plugin-next": "^13.4.1"
 	},
 	"peerDependencies": {
 		"next": "*"
