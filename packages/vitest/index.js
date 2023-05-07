@@ -26,6 +26,7 @@ module.exports = {
 		'vitest/prefer-expect-resolves': 'error',
 		'vitest/prefer-hooks-in-order': 'error',
 		'vitest/prefer-hooks-on-top': 'error',
+		'vitest/prefer-mock-promise-shorthand': 'error',
 		'vitest/prefer-snapshot-hint': 'error',
 		'vitest/prefer-spy-on': 'error',
 		'vitest/prefer-strict-equal': 'error',
@@ -35,7 +36,6 @@ module.exports = {
 		'vitest/prefer-to-contain': 'error',
 		'vitest/prefer-to-have-length': 'error',
 		'vitest/prefer-todo': 'error',
-		'vitest/preferMockPromiseShorthand': 'error',
 		'vitest/require-to-throw-message': 'error',
 		'vitest/require-top-level-describe': 'error',
 		'vitest/valid-title': ['error', {
