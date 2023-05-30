@@ -15,10 +15,13 @@ jobs:
     - uses: actions/setup-node@v3
       with:
         cache: 'pnpm'
-        node-version: '18'
+        node-version: '20'
 
-    - name: Install dependencies
-      run: pnpm i --no-frozen-lockfile
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      with:
+        version: 8.6.0
+        run_install: true
     
     - name: Test
       run: pnpm test
@@ -30,17 +33,16 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - uses: pnpm/action-setup@v2.2.4
-      with:
-        version: 7
-    
     - uses: actions/setup-node@v3
       with:
         cache: 'pnpm'
-        node-version: '18'
+        node-version: '20'
 
-    - name: Install dependencies
-      run: pnpm i --no-frozen-lockfile
+    - uses: pnpm/action-setup@v2
+      name: Install pnpm
+      with:
+        version: 8.6.0
+        run_install: true
 
     - name: Release
       env:
