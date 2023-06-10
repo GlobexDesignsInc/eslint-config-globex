@@ -24,11 +24,11 @@ importers:
         specifier: 2.8.0
         version: 2.8.0
       semantic-release:
-        specifier: 21.0.4
-        version: 21.0.4
+        specifier: 21.0.5
+        version: 21.0.5
       semantic-release-monorepo:
         specifier: 7.0.5
-        version: 7.0.5(semantic-release@21.0.4)
+        version: 7.0.5(semantic-release@21.0.5)
 
   packages/core:
     dependencies:
@@ -856,7 +856,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@semantic-release/commit-analyzer@10.0.0(semantic-release@21.0.4):
+  /@semantic-release/commit-analyzer@10.0.0(semantic-release@21.0.5):
     resolution: {integrity: sha512-/Uolz2+G+VRjP0eudAn0ldnC/VkSHzlctUdeEXL7ys7E6mLSFZdwdsR5pKDlTIgDJq4eYlshOZpwBNrmqrNajg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -869,7 +869,7 @@ packages:
       import-from: 4.0.0
       lodash-es: 4.17.21
       micromatch: 4.0.5
-      semantic-release: 21.0.4
+      semantic-release: 21.0.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -884,7 +884,7 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@semantic-release/github@9.0.0(semantic-release@21.0.4):
+  /@semantic-release/github@9.0.0(semantic-release@21.0.5):
     resolution: {integrity: sha512-ZAZTB6RGhyVHRzzXJW9Hjj4Yxagx4Lx6NqXk0AbOtIIH/mKEIwqSTYZR3iTm/KOy4/Bm5oQXIcwJ+p4+SkNWPg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -905,14 +905,14 @@ packages:
       lodash-es: 4.17.21
       mime: 3.0.0
       p-filter: 3.0.0
-      semantic-release: 21.0.4
+      semantic-release: 21.0.5
       url-join: 5.0.0
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@semantic-release/npm@10.0.3(semantic-release@21.0.4):
+  /@semantic-release/npm@10.0.3(semantic-release@21.0.5):
     resolution: {integrity: sha512-Chbv3kX4o+y+r1X6hsqBVB8NFbSVfiNlYOqMG6o9Wc8r5Y4cjxfbaMCuJ++XAtw3YXYX/NVD05cPzBi4Orjusg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -929,12 +929,12 @@ packages:
       rc: 1.2.8
       read-pkg: 8.0.0
       registry-auth-token: 5.0.2
-      semantic-release: 21.0.4
+      semantic-release: 21.0.5
       semver: 7.5.0
       tempy: 3.0.0
     dev: true
 
-  /@semantic-release/release-notes-generator@11.0.1(semantic-release@21.0.4):
+  /@semantic-release/release-notes-generator@11.0.1(semantic-release@21.0.5):
     resolution: {integrity: sha512-4deWsiY4Rg80oc9Ms11N20BIDgYkPMys4scNYQpi2Njdrtw5Z55nXKNsUN3kn6Sy/nI9dqqbp5L63TL4luI5Bw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -950,7 +950,7 @@ packages:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-pkg-up: 9.1.0
-      semantic-release: 21.0.4
+      semantic-release: 21.0.5
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -4627,7 +4627,7 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /marked-terminal@5.1.1(marked@4.3.0):
+  /marked-terminal@5.1.1(marked@5.0.5):
     resolution: {integrity: sha512-+cKTOx9P4l7HwINYhzbrBSyzgxO2HaHKGZGuB1orZsMIgXYaJyfidT81VXRdpelW/PcHEWxywscePVgI/oUF6g==}
     engines: {node: '>=14.13.1 || >=16.0.0'}
     peerDependencies:
@@ -4637,14 +4637,14 @@ packages:
       cardinal: 2.1.1
       chalk: 5.2.0
       cli-table3: 0.6.3
-      marked: 4.3.0
+      marked: 5.0.5
       node-emoji: 1.11.0
       supports-hyperlinks: 2.3.0
     dev: true
 
-  /marked@4.3.0:
-    resolution: {integrity: sha512-PRsaiG84bK+AMvxziE/lCFss8juXjNaWzVbN5tXAm4XjeaS9NAHhop+PjQxz2A9h8Q4M/xGmzP8vqNwy6JeK0A==}
-    engines: {node: '>= 12'}
+  /marked@5.0.5:
+    resolution: {integrity: sha512-auTmKJTBwZM/GLVFOhmkY7pL8v/0DxiDaXRC2kEyajcNJ0XXn9NphLD0106dbWrbPwcyD4Y0Dus16OkCzUMkfg==}
+    engines: {node: '>= 18'}
     hasBin: true
     dev: true
 
@@ -5947,7 +5947,7 @@ packages:
       commander: 2.20.3
     dev: false
 
-  /semantic-release-monorepo@7.0.5(semantic-release@21.0.4):
+  /semantic-release-monorepo@7.0.5(semantic-release@21.0.5):
     resolution: {integrity: sha512-riOYD8eZ5PIST7o97Ltc01l8VQW7q01NmPDRPOBycaeZczJowyKkzkBfo92kTIWDFWbdO3G8A695JrrYjoTaiw==}
     peerDependencies:
       semantic-release: '>=15.11.x'
@@ -5958,30 +5958,30 @@ packages:
       pkg-up: 2.0.0
       ramda: 0.25.0
       read-pkg: 5.2.0
-      semantic-release: 21.0.4
-      semantic-release-plugin-decorators: 3.0.1(semantic-release@21.0.4)
+      semantic-release: 21.0.5
+      semantic-release-plugin-decorators: 3.0.1(semantic-release@21.0.5)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /semantic-release-plugin-decorators@3.0.1(semantic-release@21.0.4):
+  /semantic-release-plugin-decorators@3.0.1(semantic-release@21.0.5):
     resolution: {integrity: sha512-f5Qjvv/AJYByvkaj11a+05gQwfPwgQKo5OIhj8YVM2Dhf2rOPEOLD83jGrTdM7Nuf//sZYw77/cGUSVygUG9Kg==}
     peerDependencies:
       semantic-release: '>=11'
     dependencies:
-      semantic-release: 21.0.4
+      semantic-release: 21.0.5
     dev: true
 
-  /semantic-release@21.0.4:
-    resolution: {integrity: sha512-SQD0l3GrZqd72NEFFjf7VhFz7KXEjcaZr0q5yZYJ0WFV1N/YxIrBejY9HOskb8VBo37Y7/HcAN1yiKpLsTzxoQ==}
+  /semantic-release@21.0.5:
+    resolution: {integrity: sha512-mCc7Hx9Ro/1Clk9tLLgwQIQuiEzx+1OX12EazvNysnx1VG4eaNJE9b9IyWtTxyFxaFYi7nM5VB5ZDVzheHTDPA==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      '@semantic-release/commit-analyzer': 10.0.0(semantic-release@21.0.4)
+      '@semantic-release/commit-analyzer': 10.0.0(semantic-release@21.0.5)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 9.0.0(semantic-release@21.0.4)
-      '@semantic-release/npm': 10.0.3(semantic-release@21.0.4)
-      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.0.4)
+      '@semantic-release/github': 9.0.0(semantic-release@21.0.5)
+      '@semantic-release/npm': 10.0.3(semantic-release@21.0.5)
+      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.0.5)
       aggregate-error: 4.0.1
       cosmiconfig: 8.1.3
       debug: 4.3.4
@@ -5994,8 +5994,8 @@ packages:
       hook-std: 3.0.0
       hosted-git-info: 6.1.1
       lodash-es: 4.17.21
-      marked: 4.3.0
-      marked-terminal: 5.1.1(marked@4.3.0)
+      marked: 5.0.5
+      marked-terminal: 5.1.1(marked@5.0.5)
       micromatch: 4.0.5
       p-each-series: 3.0.0
       p-reduce: 3.0.0
