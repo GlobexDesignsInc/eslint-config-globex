@@ -106,7 +106,8 @@ module.exports = {
 		"./node_modules/@eslint-config-globex/typescript",
 	],
 	parserOptions: {
-		project: './tsconfig.json'
+		project: true,
+    	tsconfigRootDir: __dirname,
 	}
 }
 ```
