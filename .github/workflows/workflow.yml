@@ -8,9 +8,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
-    - uses: pnpm/action-setup@v2
-      with:
-        version: 8.6.0
+    - uses: pnpm/action-setup@v2.2.4
     
     - uses: actions/setup-node@v3
       with:
@@ -30,16 +28,15 @@ jobs:
     steps:
     - uses: actions/checkout@v3
 
+    - uses: pnpm/action-setup@v2.2.4
+
     - uses: actions/setup-node@v3
       with:
         cache: 'pnpm'
         node-version: '20'
 
-    - uses: pnpm/action-setup@v2
-      name: Install pnpm
-      with:
-        version: 8.6.0
-        run_install: true
+    - name: Install dependencies
+      run: pnpm i
 
     - name: Release
       env:
