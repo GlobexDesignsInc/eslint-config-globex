@@ -11,10 +11,6 @@
 		"semantic-release": "pnpm -r --workspace-concurrency=1 exec -- npx --no-install semantic-release -e semantic-release-monorepo",
 		"test": "pnpm lint"
 	},
-	"resolutions": {
-		"@semantic-release/commit-analyzer": "<10.0.0",
-		"@semantic-release/npm": "<10.0.0"
-	},
 	"devDependencies": {
 		"@commitlint/cli": "17.6.7",
 		"@commitlint/config-conventional": "17.6.7",
@@ -23,10 +19,5 @@
 		"prettier-package-json": "2.8.0",
 		"semantic-release": "21.0.7",
 		"semantic-release-monorepo": "7.0.5"
-	},
-	"comments": {
-		"resolutions": {
-			"@semantic-release/*": "Needed to overcome ESM problems. See https://github.com/pmowrer/semantic-release-monorepo/issues/138"
-		}
 	}
 }
