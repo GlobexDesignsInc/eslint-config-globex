@@ -215,7 +215,6 @@ module.exports = {
 			'@typescript-eslint/type-annotation-spacing': 'error',
 			'@typescript-eslint/unbound-method': 'error',
 			'@typescript-eslint/unified-signatures': 'error',
-			'import/no-duplicates': 'error',
 
 			// DISABLED
 

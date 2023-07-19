@@ -71,7 +71,7 @@ module.exports = {
 		'import/no-absolute-path': 'error',
 		'import/no-amd': 'error',
 		'import/no-commonjs': 'error',
-		'import/no-duplicates': 'error',
+		'import/no-duplicates': ['error', {'prefer-inline': true}],
 		'import/no-empty-named-blocks': 'error',
 		'import/no-mutable-exports': 'error',
 		'import/no-named-as-default-member': 'error',
