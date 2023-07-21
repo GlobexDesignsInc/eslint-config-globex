@@ -100,7 +100,6 @@ module.exports = {
 		'react/no-unused-state': 'error',
 		'react/no-will-update-set-state': 'error',
 		'react/prefer-es6-class': 'error',
-		'react/prefer-read-only-props': 'error',
 		'react/prefer-stateless-function': 'error',
 		'react/prop-types': ['error', {
 			ignore: [
@@ -205,6 +204,7 @@ module.exports = {
 		'react/no-array-index-key': 'off',
 		'react/no-set-state': 'off',
 		'react/prefer-exact-props': 'off',
+		'react/prefer-read-only-props': 'off',
 		'react/require-default-props': 'off',
 		'react/static-property-placement': 'off',
 	},
