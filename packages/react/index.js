@@ -33,6 +33,9 @@ module.exports = {
 		'jsx-a11y/scope': 'error',
 		'jsx-a11y/tabindex-no-positive': 'error',
 		'jsx-quotes': ['error', 'prefer-single'],
+		'react/boolean-prop-naming': ['error', {
+			rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
+		}],
 		'react/default-props-match-prop-types': ['error', {allowRequiredDefaults: true}],
 		'react/forbid-foreign-prop-types': 'error',
 		'react/forbid-prop-types': ['error', {forbid: ['any', 'array', 'object']}],
@@ -180,11 +183,6 @@ module.exports = {
 
 		// DISABLED
 
-		// Temporarily disabled due to this bug:
-		// https://github.com/yannickcr/eslint-plugin-react/issues/1540#issuecomment-812764871
-		'react/boolean-prop-naming': ['off', {
-			rule: '^(is|has)[A-Z]([A-Za-z0-9]?)+',
-		}],
 		'react/button-has-type': 'off',
 		'react/destructuring-assignment': 'off',
 		'react/display-name': 'off',
