@@ -12,7 +12,7 @@
 		"test": "pnpm lint"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "17.7.0",
+		"@commitlint/cli": "17.7.1",
 		"@commitlint/config-conventional": "17.7.0",
 		"conventional-changelog-cli": "3.0.0",
 		"lefthook": "1.4.8",
