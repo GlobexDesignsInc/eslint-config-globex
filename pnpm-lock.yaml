@@ -24,11 +24,11 @@ importers:
         specifier: 2.8.0
         version: 2.8.0
       semantic-release:
-        specifier: 21.1.0
-        version: 21.1.0
+        specifier: 21.1.1
+        version: 21.1.1
       semantic-release-monorepo:
         specifier: 7.0.5
-        version: 7.0.5(semantic-release@21.1.0)
+        version: 7.0.5(semantic-release@21.1.1)
 
   packages/core:
     dependencies:
@@ -213,7 +213,7 @@ packages:
     resolution: {integrity: sha512-duORpUiYrEpzKIop6iNbjnwKLAKnJ47csTyRACyEmWj0QdUrm5aqNJGHSSEQSUAvNW0ojX0dOmK9dZduvkfeXA==}
     engines: {node: '>=6.9.0'}
     dependencies:
-      '@babel/types': 7.22.10
+      '@babel/types': 7.22.11
     dev: false
 
   /@babel/helper-compilation-targets@7.22.10:
@@ -359,7 +359,7 @@ packages:
       '@babel/helper-module-imports': 7.22.5
       '@babel/helper-plugin-utils': 7.20.2
       '@babel/plugin-syntax-jsx': 7.21.4(@babel/core@7.22.11)
-      '@babel/types': 7.22.10
+      '@babel/types': 7.22.11
     dev: false
 
   /@babel/runtime@7.21.0:
@@ -394,15 +394,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    dev: false
-
-  /@babel/types@7.22.10:
-    resolution: {integrity: sha512-obaoigiLrlDZ7TUQln/8m4mSqIW2QFeOrCQc9r+xsaHGNoplVNYlRVpsfE8Vj35GEm2ZH4ZhrNYogs/3fj85kg==}
-    engines: {node: '>=6.9.0'}
-    dependencies:
-      '@babel/helper-string-parser': 7.22.5
-      '@babel/helper-validator-identifier': 7.22.5
-      to-fast-properties: 2.0.0
     dev: false
 
   /@babel/types@7.22.11:
@@ -860,7 +851,7 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@semantic-release/commit-analyzer@10.0.1(semantic-release@21.1.0):
+  /@semantic-release/commit-analyzer@10.0.1(semantic-release@21.1.1):
     resolution: {integrity: sha512-9ejHzTAijYs9z246sY/dKBatmOPcd0GQ7lH4MgLCkv1q4GCiDZRkjHJkaQZXZVaK7mJybS+sH3Ng6G8i3pYMGQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -873,7 +864,7 @@ packages:
       import-from: 4.0.0
       lodash-es: 4.17.21
       micromatch: 4.0.5
-      semantic-release: 21.1.0
+      semantic-release: 21.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -888,7 +879,7 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /@semantic-release/github@9.0.0(semantic-release@21.1.0):
+  /@semantic-release/github@9.0.0(semantic-release@21.1.1):
     resolution: {integrity: sha512-ZAZTB6RGhyVHRzzXJW9Hjj4Yxagx4Lx6NqXk0AbOtIIH/mKEIwqSTYZR3iTm/KOy4/Bm5oQXIcwJ+p4+SkNWPg==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -909,14 +900,14 @@ packages:
       lodash-es: 4.17.21
       mime: 3.0.0
       p-filter: 3.0.0
-      semantic-release: 21.1.0
+      semantic-release: 21.1.1
       url-join: 5.0.0
     transitivePeerDependencies:
       - encoding
       - supports-color
     dev: true
 
-  /@semantic-release/npm@10.0.4(semantic-release@21.1.0):
+  /@semantic-release/npm@10.0.4(semantic-release@21.1.1):
     resolution: {integrity: sha512-6R3timIQ7VoL2QWRkc9DG8v74RQtRp7UOe/2KbNaqwJ815qOibAv65bH3RtTEhs4axEaHoZf7HDgFs5opaZ9Jw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -933,12 +924,12 @@ packages:
       rc: 1.2.8
       read-pkg: 8.0.0
       registry-auth-token: 5.0.2
-      semantic-release: 21.1.0
+      semantic-release: 21.1.1
       semver: 7.5.4
       tempy: 3.1.0
     dev: true
 
-  /@semantic-release/release-notes-generator@11.0.1(semantic-release@21.1.0):
+  /@semantic-release/release-notes-generator@11.0.1(semantic-release@21.1.1):
     resolution: {integrity: sha512-4deWsiY4Rg80oc9Ms11N20BIDgYkPMys4scNYQpi2Njdrtw5Z55nXKNsUN3kn6Sy/nI9dqqbp5L63TL4luI5Bw==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -954,7 +945,7 @@ packages:
       into-stream: 7.0.0
       lodash-es: 4.17.21
       read-pkg-up: 9.1.0
-      semantic-release: 21.1.0
+      semantic-release: 21.1.1
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -6213,7 +6204,7 @@ packages:
       commander: 2.20.3
     dev: false
 
-  /semantic-release-monorepo@7.0.5(semantic-release@21.1.0):
+  /semantic-release-monorepo@7.0.5(semantic-release@21.1.1):
     resolution: {integrity: sha512-riOYD8eZ5PIST7o97Ltc01l8VQW7q01NmPDRPOBycaeZczJowyKkzkBfo92kTIWDFWbdO3G8A695JrrYjoTaiw==}
     peerDependencies:
       semantic-release: '>=15.11.x'
@@ -6224,30 +6215,30 @@ packages:
       pkg-up: 2.0.0
       ramda: 0.25.0
       read-pkg: 5.2.0
-      semantic-release: 21.1.0
-      semantic-release-plugin-decorators: 3.0.1(semantic-release@21.1.0)
+      semantic-release: 21.1.1
+      semantic-release-plugin-decorators: 3.0.1(semantic-release@21.1.1)
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /semantic-release-plugin-decorators@3.0.1(semantic-release@21.1.0):
+  /semantic-release-plugin-decorators@3.0.1(semantic-release@21.1.1):
     resolution: {integrity: sha512-f5Qjvv/AJYByvkaj11a+05gQwfPwgQKo5OIhj8YVM2Dhf2rOPEOLD83jGrTdM7Nuf//sZYw77/cGUSVygUG9Kg==}
     peerDependencies:
       semantic-release: '>=11'
     dependencies:
-      semantic-release: 21.1.0
+      semantic-release: 21.1.1
     dev: true
 
-  /semantic-release@21.1.0:
-    resolution: {integrity: sha512-4CY58UBm+pV9neEDS5CAwSNkxqmEQTUZ3WZs/11DF4I5ZR4as9ZdiDUKKU2YoR5dcq51I3nmVNfVCyeh1vRoKA==}
+  /semantic-release@21.1.1:
+    resolution: {integrity: sha512-OCIazQnaCHdq1F6zfmKS0P7jZakYq0weiqW2mxUWo4H2CDnxelUoa/0Bs/dQatoHc6JFh6lG2HWpusdl93bFcw==}
     engines: {node: '>=18'}
     hasBin: true
     dependencies:
-      '@semantic-release/commit-analyzer': 10.0.1(semantic-release@21.1.0)
+      '@semantic-release/commit-analyzer': 10.0.1(semantic-release@21.1.1)
       '@semantic-release/error': 4.0.0
-      '@semantic-release/github': 9.0.0(semantic-release@21.1.0)
-      '@semantic-release/npm': 10.0.4(semantic-release@21.1.0)
-      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.1.0)
+      '@semantic-release/github': 9.0.0(semantic-release@21.1.1)
+      '@semantic-release/npm': 10.0.4(semantic-release@21.1.1)
+      '@semantic-release/release-notes-generator': 11.0.1(semantic-release@21.1.1)
       aggregate-error: 4.0.1
       cosmiconfig: 8.1.3
       debug: 4.3.4
