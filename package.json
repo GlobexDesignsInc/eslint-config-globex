@@ -17,7 +17,7 @@
 		"conventional-changelog-cli": "3.0.0",
 		"lefthook": "1.4.9",
 		"prettier-package-json": "2.8.0",
-		"semantic-release": "21.0.9",
+		"semantic-release": "21.1.0",
 		"semantic-release-monorepo": "7.0.5"
 	}
 }
