@@ -15,7 +15,7 @@
 		"@commitlint/cli": "17.7.1",
 		"@commitlint/config-conventional": "17.7.0",
 		"conventional-changelog-cli": "4.0.0",
-		"lefthook": "1.4.9",
+		"lefthook": "1.4.10",
 		"prettier-package-json": "2.8.0",
 		"semantic-release": "21.1.1",
 		"semantic-release-monorepo": "7.0.5"
