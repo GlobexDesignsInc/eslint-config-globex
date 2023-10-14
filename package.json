@@ -12,8 +12,8 @@
 		"test": "pnpm lint"
 	},
 	"devDependencies": {
-		"@commitlint/cli": "17.7.2",
-		"@commitlint/config-conventional": "17.7.0",
+		"@commitlint/cli": "17.8.0",
+		"@commitlint/config-conventional": "17.8.0",
 		"conventional-changelog-cli": "4.1.0",
 		"lefthook": "1.5.2",
 		"prettier-package-json": "2.8.0",
