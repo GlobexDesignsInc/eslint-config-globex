@@ -17,8 +17,8 @@
 		"version": "npm version"
 	},
 	"dependencies": {
-		"@babel/core": "7.23.2",
-		"@babel/eslint-parser": "7.22.15",
+		"@babel/core": "7.23.3",
+		"@babel/eslint-parser": "7.23.3",
 		"eslint-plugin-flowtype": "^8.0.3"
 	},
 	"peerDependencies": {
