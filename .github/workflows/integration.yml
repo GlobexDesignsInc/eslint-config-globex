@@ -10,7 +10,6 @@ jobs:
     strategy:
       matrix:
         repos: [
-          {name: 'haus.gg', repository: 'EvHaus/haus.gg'},
           {name: 'globexdesigns.com', repository: 'GlobexDesignsInc/globexdesigns.com'}
         ]
 
