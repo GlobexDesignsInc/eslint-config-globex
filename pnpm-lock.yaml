@@ -129,7 +129,7 @@ importers:
   packages/vitest:
     dependencies:
       eslint-plugin-vitest:
-        specifier: ^0.3.14
+        specifier: ^0.3.15
         version: 0.3.15(eslint@8.55.0)(typescript@5.2.2)(vitest@0.34.3)
       vitest:
         specifier: '*'
