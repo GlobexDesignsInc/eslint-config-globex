@@ -1,3 +1,6 @@
+> [!ALERT]
+> This package has been deprecated. The Globex Designs team has moved to https://biomejs.dev/ and this config is no longer going to be maintained.
+
 <div align="center">
 
 <h1>eslint-config-globex</h1>
